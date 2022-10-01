@@ -2,10 +2,71 @@
 
 <img src="https://user-images.githubusercontent.com/545047/193426489-d5d3c9a9-d738-43a0-a628-b8b4f1a8034b.png" width="400">
 
-## usage
+## install
 
 ```sh
 npm install injectivejs
+```
+## Table of contents
+
+- [InjectiveJS](#injectivejs)
+  - [Install](#install)
+  - [Table of contents](#table-of-contents)
+- [Usage](#usage)
+    - [Contracts](#contracts)
+        - [Registry](#registry)
+    - [RPC Clients](#rpc-clients)
+    - [Composing Messages](#composing-messages)
+        - Injective
+            - [Auction](#auction-messages)
+            - [Exchange](#exchange-messages)
+            - [Insurance](#insurance-messages)
+            - [OCR](#ocr-messages)
+            - [Oracle](#oracle-messages)
+            - [Peggy](#peggy-messages)
+        - Cosmos, CosmWasm, and IBC
+            - [CosmWasm](#cosmwasm-messages)
+            - [IBC](#ibc-messages)
+            - [Cosmos](#cosmos-messages)
+- [Wallets and Signers](#connecting-with-wallets-and-signing-messages)
+    - [Stargate Client](#initializing-the-stargate-client)
+    - [Creating Signers](#creating-signers)
+    - [Broadcasting Messages](#broadcasting-messages)
+- [Advanced Usage](#advanced-usage)
+- [Credits](#credits)
+
+## Usage
+### Contracts
+#### Registry
+
+```js
+import { contracts } from 'injectivejs';
+const { RegistryClient } = contracts.Registry;
+
+const client = new RegistryClient(
+    signingCosmWasmClient, // make sure to create your client (see docs below)
+    senderAddress,
+    contractAddress
+);
+```
+#### Registry.activate
+
+```js
+await client.activate({
+    contractAddress
+})
+```
+
+#### Registry.getActiveContracts
+
+```js
+const activeContracts = await client.getActiveContracts();
+const {
+    address,
+    gas_limit,
+    gas_price,
+    is_executable
+} = activeContracts.contracts[0];
 ```
 
 ### RPC Clients
@@ -39,7 +100,7 @@ const {
 } = injective.exchange.v1beta1.MessageComposer.withTypeUrl;
 ```
 
-#### Audi
+#### Auction Messages
 
 ```js
 const {
@@ -47,7 +108,7 @@ const {
 } = injective.auction.v1beta1.MessageComposer.withTypeUrl;
 ```
 
-#### Exchange 
+#### Exchange Messages
 
 ```js
 const {
@@ -82,7 +143,7 @@ const {
 } = injective.exchange.v1beta1.MessageComposer.withTypeUrl;
 ```
 
-#### Insurance
+#### Insurance Messages
 
 ```js
 const {
@@ -92,7 +153,7 @@ const {
 } = injective.insurance.v1beta1.MessageComposer.withTypeUrl;
 ```
 
-#### OCR
+#### OCR Messages
 
 ```js
 const {
@@ -107,7 +168,7 @@ const {
 } = injective.ocr.v1beta1.MessageComposer.withTypeUrl;
 ```
 
-#### Oracle 
+#### Oracle Messages
 
 ```js
 const {
@@ -119,7 +180,7 @@ const {
 } = injective.oracle.v1beta1.MessageComposer.withTypeUrl;
 ```
 
-#### Peggy
+#### Peggy Messages
 
 ```js
 const {
@@ -213,7 +274,7 @@ const stargateClient = await getSigningInjectiveClient({
   signer // OfflineSigner
 });
 ```
-## Creating Signers
+### Creating Signers
 
 To broadcast messages, you can create signers with a variety of options:
 
@@ -246,7 +307,7 @@ const mnemonic =
     chain
   });
 ```
-### Broadcasting messages
+### Broadcasting Messages
 
 Now that you have your `stargateClient`, you can broadcast messages:
 
@@ -276,7 +337,7 @@ const fee: StdFee = {
 const response = await stargateClient.signAndBroadcast(address, [msg], fee);
 ```
 
-### Advanced Usage
+## Advanced Usage
 
 If you want to manually construct a stargate client
 

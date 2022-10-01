@@ -396,18 +396,25 @@ When first cloning the repo, first `bootstrap` + `build`:
 
 ```
 yarn
-yarn bootstrap
 yarn build
 ```
 
 ### Codegen
 
-Look inside of `scripts/codegen.js` and configure the settings for bundling your SDK and contracts into `injectivejs`:
+Contract schemas live in `./contracts`, and protos in `./protos`. Look inside of `scripts/codegen.js` and configure the settings for bundling your SDK and contracts into `injectivejs`:
 
 ```
 yarn codegen
 ```
 
+### Publishing
+
+Build the types and then publish:
+
+```
+yarn build:ts
+yarn publish
+```
 ## Credits
 
 🛠 Built by Cosmology — if you like our tools, please consider delegating to [our validator ⚛️](https://cosmology.tech/validator)

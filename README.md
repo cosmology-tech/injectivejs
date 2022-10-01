@@ -1,7 +1,7 @@
 # injectivejs
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/545047/193426489-d5d3c9a9-d738-43a0-a628-b8b4f1a8034b.png" width="180">
+  <img src="https://user-images.githubusercontent.com/545047/193426489-d5d3c9a9-d738-43a0-a628-b8b4f1a8034b.png" width="80">
 </p>
 
 Building the future of decentralized exchange

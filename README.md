@@ -37,6 +37,7 @@ npm install injectivejs
     - [Creating Signers](#creating-signers)
     - [Broadcasting Messages](#broadcasting-messages)
 - [Advanced Usage](#advanced-usage)
+- [Developing](#developing)
 - [Credits](#credits)
 
 ## Usage
@@ -343,6 +344,7 @@ const response = await stargateClient.signAndBroadcast(address, [msg], fee);
 
 ## Advanced Usage
 
+
 If you want to manually construct a stargate client
 
 ```js
@@ -386,6 +388,24 @@ const stargateClient = await SigningStargateClient.connectWithSigner(rpcEndpoint
     registry,
     aminoTypes
 });
+```
+
+## Developing
+
+When first cloning the repo, first `bootstrap` + `build`:
+
+```
+yarn
+yarn bootstrap
+yarn build
+```
+
+### Codegen
+
+Look inside of `scripts/codegen.js` and configure the settings for bundling your SDK and contracts into `injectivejs`:
+
+```
+yarn codegen
 ```
 
 ## Credits

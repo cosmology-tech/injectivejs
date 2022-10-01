@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExecuteMsg",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "swap_spot"
+      ],
+      "properties": {
+        "swap_spot": {
+          "type": "object",
+          "required": [
+            "price",
+            "quantity"
+          ],
+          "properties": {
+            "price": {
+              "$ref": "#/definitions/FPDecimal"
+            },
+            "quantity": {
+              "$ref": "#/definitions/FPDecimal"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "definitions": {
+    "FPDecimal": {
+      "type": "object",
+      "required": [
+        "num",
+        "sign"
+      ],
+      "properties": {
+        "num": {
+          "type": "string"
+        },
+        "sign": {
+          "type": "integer",
+          "format": "int8"
+        }
+      }
+    }
+  }
+}

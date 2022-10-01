@@ -4,7 +4,7 @@ import { AminoMsg } from "@cosmjs/amino";
 import { Long } from "@osmonauts/helpers";
 import { MsgDeposit, MsgWithdraw, MsgInstantSpotMarketLaunch, MsgInstantPerpetualMarketLaunch, MsgInstantExpiryFuturesMarketLaunch, MsgCreateSpotLimitOrder, MsgBatchCreateSpotLimitOrders, MsgCreateSpotMarketOrder, MsgCancelSpotOrder, MsgBatchCancelSpotOrders, MsgBatchUpdateOrders, MsgExec, MsgCreateDerivativeLimitOrder, MsgBatchCreateDerivativeLimitOrders, MsgCreateDerivativeMarketOrder, MsgCancelDerivativeOrder, MsgBatchCancelDerivativeOrders, MsgInstantBinaryOptionsMarketLaunch, MsgCreateBinaryOptionsLimitOrder, MsgCreateBinaryOptionsMarketOrder, MsgCancelBinaryOptionsOrder, MsgBatchCancelBinaryOptionsOrders, MsgSubaccountTransfer, MsgExternalTransfer, MsgLiquidatePosition, MsgIncreasePositionMargin, MsgRewardsOptOut, MsgAdminUpdateBinaryOptionsMarket } from "./tx";
 export interface AminoMsgDeposit extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgDeposit";
+  type: "exchange/MsgDeposit";
   value: {
     sender: string;
     subaccount_id: string;
@@ -15,7 +15,7 @@ export interface AminoMsgDeposit extends AminoMsg {
   };
 }
 export interface AminoMsgWithdraw extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgWithdraw";
+  type: "exchange/MsgWithdraw";
   value: {
     sender: string;
     subaccount_id: string;
@@ -26,7 +26,7 @@ export interface AminoMsgWithdraw extends AminoMsg {
   };
 }
 export interface AminoMsgInstantSpotMarketLaunch extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgInstantSpotMarketLaunch";
+  type: "exchange/MsgInstantSpotMarketLaunch";
   value: {
     sender: string;
     ticker: string;
@@ -37,7 +37,7 @@ export interface AminoMsgInstantSpotMarketLaunch extends AminoMsg {
   };
 }
 export interface AminoMsgInstantPerpetualMarketLaunch extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgInstantPerpetualMarketLaunch";
+  type: "exchange/MsgInstantPerpetualMarketLaunch";
   value: {
     sender: string;
     ticker: string;
@@ -55,7 +55,7 @@ export interface AminoMsgInstantPerpetualMarketLaunch extends AminoMsg {
   };
 }
 export interface AminoMsgInstantExpiryFuturesMarketLaunch extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgInstantExpiryFuturesMarketLaunch";
+  type: "exchange/MsgInstantExpiryFuturesMarketLaunch";
   value: {
     sender: string;
     ticker: string;
@@ -74,7 +74,7 @@ export interface AminoMsgInstantExpiryFuturesMarketLaunch extends AminoMsg {
   };
 }
 export interface AminoMsgCreateSpotLimitOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCreateSpotLimitOrder";
+  type: "exchange/MsgCreateSpotLimitOrder";
   value: {
     sender: string;
     order: {
@@ -91,7 +91,7 @@ export interface AminoMsgCreateSpotLimitOrder extends AminoMsg {
   };
 }
 export interface AminoMsgBatchCreateSpotLimitOrders extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgBatchCreateSpotLimitOrders";
+  type: "exchange/MsgBatchCreateSpotLimitOrders";
   value: {
     sender: string;
     orders: {
@@ -108,7 +108,7 @@ export interface AminoMsgBatchCreateSpotLimitOrders extends AminoMsg {
   };
 }
 export interface AminoMsgCreateSpotMarketOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCreateSpotMarketOrder";
+  type: "exchange/MsgCreateSpotMarketOrder";
   value: {
     sender: string;
     order: {
@@ -125,7 +125,7 @@ export interface AminoMsgCreateSpotMarketOrder extends AminoMsg {
   };
 }
 export interface AminoMsgCancelSpotOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCancelSpotOrder";
+  type: "exchange/MsgCancelSpotOrder";
   value: {
     sender: string;
     market_id: string;
@@ -134,7 +134,7 @@ export interface AminoMsgCancelSpotOrder extends AminoMsg {
   };
 }
 export interface AminoMsgBatchCancelSpotOrders extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgBatchCancelSpotOrders";
+  type: "exchange/MsgBatchCancelSpotOrders";
   value: {
     sender: string;
     data: {
@@ -146,7 +146,7 @@ export interface AminoMsgBatchCancelSpotOrders extends AminoMsg {
   };
 }
 export interface AminoMsgBatchUpdateOrders extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgBatchUpdateOrders";
+  type: "exchange/MsgBatchUpdateOrders";
   value: {
     sender: string;
     subaccount_id: string;
@@ -209,7 +209,7 @@ export interface AminoMsgBatchUpdateOrders extends AminoMsg {
   };
 }
 export interface AminoMsgExec extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgExec";
+  type: "exchange/MsgExec";
   value: {
     sender: string;
     bank_funds: {
@@ -226,7 +226,7 @@ export interface AminoMsgExec extends AminoMsg {
   };
 }
 export interface AminoMsgCreateDerivativeLimitOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCreateDerivativeLimitOrder";
+  type: "exchange/MsgCreateDerivativeLimitOrder";
   value: {
     sender: string;
     order: {
@@ -244,7 +244,7 @@ export interface AminoMsgCreateDerivativeLimitOrder extends AminoMsg {
   };
 }
 export interface AminoMsgBatchCreateDerivativeLimitOrders extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgBatchCreateDerivativeLimitOrders";
+  type: "exchange/MsgBatchCreateDerivativeLimitOrders";
   value: {
     sender: string;
     orders: {
@@ -262,7 +262,7 @@ export interface AminoMsgBatchCreateDerivativeLimitOrders extends AminoMsg {
   };
 }
 export interface AminoMsgCreateDerivativeMarketOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCreateDerivativeMarketOrder";
+  type: "exchange/MsgCreateDerivativeMarketOrder";
   value: {
     sender: string;
     order: {
@@ -280,7 +280,7 @@ export interface AminoMsgCreateDerivativeMarketOrder extends AminoMsg {
   };
 }
 export interface AminoMsgCancelDerivativeOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCancelDerivativeOrder";
+  type: "exchange/MsgCancelDerivativeOrder";
   value: {
     sender: string;
     market_id: string;
@@ -290,7 +290,7 @@ export interface AminoMsgCancelDerivativeOrder extends AminoMsg {
   };
 }
 export interface AminoMsgBatchCancelDerivativeOrders extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgBatchCancelDerivativeOrders";
+  type: "exchange/MsgBatchCancelDerivativeOrders";
   value: {
     sender: string;
     data: {
@@ -302,7 +302,7 @@ export interface AminoMsgBatchCancelDerivativeOrders extends AminoMsg {
   };
 }
 export interface AminoMsgInstantBinaryOptionsMarketLaunch extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgInstantBinaryOptionsMarketLaunch";
+  type: "exchange/MsgInstantBinaryOptionsMarketLaunch";
   value: {
     sender: string;
     ticker: string;
@@ -321,7 +321,7 @@ export interface AminoMsgInstantBinaryOptionsMarketLaunch extends AminoMsg {
   };
 }
 export interface AminoMsgCreateBinaryOptionsLimitOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCreateBinaryOptionsLimitOrder";
+  type: "exchange/MsgCreateBinaryOptionsLimitOrder";
   value: {
     sender: string;
     order: {
@@ -339,7 +339,7 @@ export interface AminoMsgCreateBinaryOptionsLimitOrder extends AminoMsg {
   };
 }
 export interface AminoMsgCreateBinaryOptionsMarketOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCreateBinaryOptionsMarketOrder";
+  type: "exchange/MsgCreateBinaryOptionsMarketOrder";
   value: {
     sender: string;
     order: {
@@ -357,7 +357,7 @@ export interface AminoMsgCreateBinaryOptionsMarketOrder extends AminoMsg {
   };
 }
 export interface AminoMsgCancelBinaryOptionsOrder extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgCancelBinaryOptionsOrder";
+  type: "exchange/MsgCancelBinaryOptionsOrder";
   value: {
     sender: string;
     market_id: string;
@@ -367,7 +367,7 @@ export interface AminoMsgCancelBinaryOptionsOrder extends AminoMsg {
   };
 }
 export interface AminoMsgBatchCancelBinaryOptionsOrders extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgBatchCancelBinaryOptionsOrders";
+  type: "exchange/MsgBatchCancelBinaryOptionsOrders";
   value: {
     sender: string;
     data: {
@@ -379,7 +379,7 @@ export interface AminoMsgBatchCancelBinaryOptionsOrders extends AminoMsg {
   };
 }
 export interface AminoMsgSubaccountTransfer extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgSubaccountTransfer";
+  type: "exchange/MsgSubaccountTransfer";
   value: {
     sender: string;
     source_subaccount_id: string;
@@ -391,7 +391,7 @@ export interface AminoMsgSubaccountTransfer extends AminoMsg {
   };
 }
 export interface AminoMsgExternalTransfer extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgExternalTransfer";
+  type: "exchange/MsgExternalTransfer";
   value: {
     sender: string;
     source_subaccount_id: string;
@@ -403,7 +403,7 @@ export interface AminoMsgExternalTransfer extends AminoMsg {
   };
 }
 export interface AminoMsgLiquidatePosition extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgLiquidatePosition";
+  type: "exchange/MsgLiquidatePosition";
   value: {
     sender: string;
     subaccount_id: string;
@@ -423,7 +423,7 @@ export interface AminoMsgLiquidatePosition extends AminoMsg {
   };
 }
 export interface AminoMsgIncreasePositionMargin extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgIncreasePositionMargin";
+  type: "exchange/MsgIncreasePositionMargin";
   value: {
     sender: string;
     source_subaccount_id: string;
@@ -439,7 +439,7 @@ export interface AminoMsgRewardsOptOut extends AminoMsg {
   };
 }
 export interface AminoMsgAdminUpdateBinaryOptionsMarket extends AminoMsg {
-  type: "/injective.exchange.v1beta1.MsgAdminUpdateBinaryOptionsMarket";
+  type: "exchange/MsgAdminUpdateBinaryOptionsMarket";
   value: {
     sender: string;
     market_id: string;
@@ -451,7 +451,7 @@ export interface AminoMsgAdminUpdateBinaryOptionsMarket extends AminoMsg {
 }
 export const AminoConverter = {
   "/injective.exchange.v1beta1.MsgDeposit": {
-    aminoType: "/injective.exchange.v1beta1.MsgDeposit",
+    aminoType: "exchange/MsgDeposit",
     toAmino: ({
       sender,
       subaccountId,
@@ -482,7 +482,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgWithdraw": {
-    aminoType: "/injective.exchange.v1beta1.MsgWithdraw",
+    aminoType: "exchange/MsgWithdraw",
     toAmino: ({
       sender,
       subaccountId,
@@ -513,7 +513,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgInstantSpotMarketLaunch": {
-    aminoType: "/injective.exchange.v1beta1.MsgInstantSpotMarketLaunch",
+    aminoType: "exchange/MsgInstantSpotMarketLaunch",
     toAmino: ({
       sender,
       ticker,
@@ -550,7 +550,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgInstantPerpetualMarketLaunch": {
-    aminoType: "/injective.exchange.v1beta1.MsgInstantPerpetualMarketLaunch",
+    aminoType: "exchange/MsgInstantPerpetualMarketLaunch",
     toAmino: ({
       sender,
       ticker,
@@ -615,7 +615,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgInstantExpiryFuturesMarketLaunch": {
-    aminoType: "/injective.exchange.v1beta1.MsgInstantExpiryFuturesMarketLaunch",
+    aminoType: "exchange/MsgInstantExpiryFuturesMarketLaunch",
     toAmino: ({
       sender,
       ticker,
@@ -684,7 +684,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCreateSpotLimitOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCreateSpotLimitOrder",
+    aminoType: "exchange/MsgCreateSpotLimitOrder",
     toAmino: ({
       sender,
       order
@@ -725,7 +725,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgBatchCreateSpotLimitOrders": {
-    aminoType: "/injective.exchange.v1beta1.MsgBatchCreateSpotLimitOrders",
+    aminoType: "exchange/MsgBatchCreateSpotLimitOrders",
     toAmino: ({
       sender,
       orders
@@ -766,7 +766,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCreateSpotMarketOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCreateSpotMarketOrder",
+    aminoType: "exchange/MsgCreateSpotMarketOrder",
     toAmino: ({
       sender,
       order
@@ -807,7 +807,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCancelSpotOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCancelSpotOrder",
+    aminoType: "exchange/MsgCancelSpotOrder",
     toAmino: ({
       sender,
       marketId,
@@ -836,7 +836,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgBatchCancelSpotOrders": {
-    aminoType: "/injective.exchange.v1beta1.MsgBatchCancelSpotOrders",
+    aminoType: "exchange/MsgBatchCancelSpotOrders",
     toAmino: ({
       sender,
       data
@@ -867,7 +867,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgBatchUpdateOrders": {
-    aminoType: "/injective.exchange.v1beta1.MsgBatchUpdateOrders",
+    aminoType: "exchange/MsgBatchUpdateOrders",
     toAmino: ({
       sender,
       subaccountId,
@@ -1018,7 +1018,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgExec": {
-    aminoType: "/injective.exchange.v1beta1.MsgExec",
+    aminoType: "exchange/MsgExec",
     toAmino: ({
       sender,
       bankFunds,
@@ -1067,7 +1067,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCreateDerivativeLimitOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCreateDerivativeLimitOrder",
+    aminoType: "exchange/MsgCreateDerivativeLimitOrder",
     toAmino: ({
       sender,
       order
@@ -1110,7 +1110,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgBatchCreateDerivativeLimitOrders": {
-    aminoType: "/injective.exchange.v1beta1.MsgBatchCreateDerivativeLimitOrders",
+    aminoType: "exchange/MsgBatchCreateDerivativeLimitOrders",
     toAmino: ({
       sender,
       orders
@@ -1153,7 +1153,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCreateDerivativeMarketOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCreateDerivativeMarketOrder",
+    aminoType: "exchange/MsgCreateDerivativeMarketOrder",
     toAmino: ({
       sender,
       order
@@ -1196,7 +1196,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCancelDerivativeOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCancelDerivativeOrder",
+    aminoType: "exchange/MsgCancelDerivativeOrder",
     toAmino: ({
       sender,
       marketId,
@@ -1229,7 +1229,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgBatchCancelDerivativeOrders": {
-    aminoType: "/injective.exchange.v1beta1.MsgBatchCancelDerivativeOrders",
+    aminoType: "exchange/MsgBatchCancelDerivativeOrders",
     toAmino: ({
       sender,
       data
@@ -1260,7 +1260,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgInstantBinaryOptionsMarketLaunch": {
-    aminoType: "/injective.exchange.v1beta1.MsgInstantBinaryOptionsMarketLaunch",
+    aminoType: "exchange/MsgInstantBinaryOptionsMarketLaunch",
     toAmino: ({
       sender,
       ticker,
@@ -1329,7 +1329,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCreateBinaryOptionsLimitOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCreateBinaryOptionsLimitOrder",
+    aminoType: "exchange/MsgCreateBinaryOptionsLimitOrder",
     toAmino: ({
       sender,
       order
@@ -1372,7 +1372,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCreateBinaryOptionsMarketOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCreateBinaryOptionsMarketOrder",
+    aminoType: "exchange/MsgCreateBinaryOptionsMarketOrder",
     toAmino: ({
       sender,
       order
@@ -1415,7 +1415,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgCancelBinaryOptionsOrder": {
-    aminoType: "/injective.exchange.v1beta1.MsgCancelBinaryOptionsOrder",
+    aminoType: "exchange/MsgCancelBinaryOptionsOrder",
     toAmino: ({
       sender,
       marketId,
@@ -1448,7 +1448,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgBatchCancelBinaryOptionsOrders": {
-    aminoType: "/injective.exchange.v1beta1.MsgBatchCancelBinaryOptionsOrders",
+    aminoType: "exchange/MsgBatchCancelBinaryOptionsOrders",
     toAmino: ({
       sender,
       data
@@ -1479,7 +1479,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgSubaccountTransfer": {
-    aminoType: "/injective.exchange.v1beta1.MsgSubaccountTransfer",
+    aminoType: "exchange/MsgSubaccountTransfer",
     toAmino: ({
       sender,
       sourceSubaccountId,
@@ -1514,7 +1514,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgExternalTransfer": {
-    aminoType: "/injective.exchange.v1beta1.MsgExternalTransfer",
+    aminoType: "exchange/MsgExternalTransfer",
     toAmino: ({
       sender,
       sourceSubaccountId,
@@ -1549,7 +1549,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgLiquidatePosition": {
-    aminoType: "/injective.exchange.v1beta1.MsgLiquidatePosition",
+    aminoType: "exchange/MsgLiquidatePosition",
     toAmino: ({
       sender,
       subaccountId,
@@ -1600,7 +1600,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgIncreasePositionMargin": {
-    aminoType: "/injective.exchange.v1beta1.MsgIncreasePositionMargin",
+    aminoType: "exchange/MsgIncreasePositionMargin",
     toAmino: ({
       sender,
       sourceSubaccountId,
@@ -1650,7 +1650,7 @@ export const AminoConverter = {
     }
   },
   "/injective.exchange.v1beta1.MsgAdminUpdateBinaryOptionsMarket": {
-    aminoType: "/injective.exchange.v1beta1.MsgAdminUpdateBinaryOptionsMarket",
+    aminoType: "exchange/MsgAdminUpdateBinaryOptionsMarket",
     toAmino: ({
       sender,
       marketId,

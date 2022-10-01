@@ -3,7 +3,7 @@ import { AminoMsg } from "@cosmjs/amino";
 import { Long } from "@osmonauts/helpers";
 import { MsgCreateInsuranceFund, MsgUnderwrite, MsgRequestRedemption } from "./tx";
 export interface AminoMsgCreateInsuranceFund extends AminoMsg {
-  type: "/injective.insurance.v1beta1.MsgCreateInsuranceFund";
+  type: "insurance/MsgCreateInsuranceFund";
   value: {
     sender: string;
     ticker: string;
@@ -19,7 +19,7 @@ export interface AminoMsgCreateInsuranceFund extends AminoMsg {
   };
 }
 export interface AminoMsgUnderwrite extends AminoMsg {
-  type: "/injective.insurance.v1beta1.MsgUnderwrite";
+  type: "insurance/MsgUnderwrite";
   value: {
     sender: string;
     market_id: string;
@@ -30,7 +30,7 @@ export interface AminoMsgUnderwrite extends AminoMsg {
   };
 }
 export interface AminoMsgRequestRedemption extends AminoMsg {
-  type: "/injective.insurance.v1beta1.MsgRequestRedemption";
+  type: "insurance/MsgRequestRedemption";
   value: {
     sender: string;
     market_id: string;
@@ -42,7 +42,7 @@ export interface AminoMsgRequestRedemption extends AminoMsg {
 }
 export const AminoConverter = {
   "/injective.insurance.v1beta1.MsgCreateInsuranceFund": {
-    aminoType: "/injective.insurance.v1beta1.MsgCreateInsuranceFund",
+    aminoType: "insurance/MsgCreateInsuranceFund",
     toAmino: ({
       sender,
       ticker,
@@ -93,7 +93,7 @@ export const AminoConverter = {
     }
   },
   "/injective.insurance.v1beta1.MsgUnderwrite": {
-    aminoType: "/injective.insurance.v1beta1.MsgUnderwrite",
+    aminoType: "insurance/MsgUnderwrite",
     toAmino: ({
       sender,
       marketId,
@@ -124,7 +124,7 @@ export const AminoConverter = {
     }
   },
   "/injective.insurance.v1beta1.MsgRequestRedemption": {
-    aminoType: "/injective.insurance.v1beta1.MsgRequestRedemption",
+    aminoType: "insurance/MsgRequestRedemption",
     toAmino: ({
       sender,
       marketId,

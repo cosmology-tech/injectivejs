@@ -1,6 +1,7 @@
 import { join } from 'path';
 import telescope from '@osmonauts/telescope';
 import { sync as rimraf } from 'rimraf';
+import { INJECTIVE_AMINO_MAP } from './aminos';
 
 const protoDirs = [join(__dirname, '/../proto')];
 const outPath = join(__dirname, '../src/codegen');
@@ -31,7 +32,8 @@ telescope({
       }
     },
     aminoEncoding: {
-      enabled: true
+      enabled: true,
+      exceptions: INJECTIVE_AMINO_MAP
     },
     lcdClients: {
       enabled: true

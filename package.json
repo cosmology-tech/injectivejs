@@ -1,9 +1,9 @@
 {
   "name": "injectivejs",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "injective",
   "author": "Dan Lynch <pyramation@gmail.com>",
-  "homepage": "https://github.com/pyramation/injectivejs#readme",
+  "homepage": "https://github.com/cosmology-tech/injectivejs#readme",
   "license": "SEE LICENSE IN LICENSE",
   "main": "main/index.js",
   "typings": "types/index.d.ts",
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pyramation/injectivejs"
+    "url": "https://github.com/cosmology-tech/injectivejs"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/pyramation/injectivejs/issues"
+    "url": "https://github.com/cosmology-tech/injectivejs/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.18.10",

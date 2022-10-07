@@ -367,7 +367,6 @@ const rpcEndpint = 'https://rpc.cosmos.directory/injective'; // or another URL
 
 const protoRegistry: ReadonlyArray<[string, GeneratedType]> = [
     ...cosmosProtoRegistry,
-    ...publicawesomeProtoRegistry,
     ...cosmwasmProtoRegistry,
     ...ibcProtoRegistry,
     ...injectiveProtoRegistry
@@ -375,7 +374,6 @@ const protoRegistry: ReadonlyArray<[string, GeneratedType]> = [
 
 const aminoConverters = {
     ...cosmosAminoConverters,
-    ...publicawesomeAminoConverters,
     ...cosmwasmAminoConverters,
     ...ibcAminoConverters,
     ...injectiveAminoConverters

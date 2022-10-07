@@ -392,7 +392,7 @@ const stargateClient = await SigningStargateClient.connectWithSigner(rpcEndpoint
 
 ## Developing
 
-When first cloning the repo, first `bootstrap` + `build`:
+When first cloning the repo:
 
 ```
 yarn
@@ -401,7 +401,7 @@ yarn build
 
 ### Codegen
 
-Contract schemas live in `./contracts`, and protos in `./protos`. Look inside of `scripts/codegen.js` and configure the settings for bundling your SDK and contracts into `injectivejs`:
+Contract schemas live in `./contracts`, and protos in `./proto`. Look inside of `scripts/codegen.js` and configure the settings for bundling your SDK and contracts into `injectivejs`:
 
 ```
 yarn codegen

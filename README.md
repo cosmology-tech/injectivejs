@@ -363,7 +363,7 @@ import {
 } from 'injectivejs';
 
 const signer: OfflineSigner = /* create your signer (see above)  */
-const rpcEndpint = 'https://rpc.cosmos.directory/injective'; // or another URL
+const rpcEndpoint = 'https://rpc.cosmos.directory/injective'; // or another URL
 
 const protoRegistry: ReadonlyArray<[string, GeneratedType]> = [
     ...cosmosProtoRegistry,

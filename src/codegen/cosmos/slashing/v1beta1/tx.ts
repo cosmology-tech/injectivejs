@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** MsgUnjail defines the Msg/Unjail request type */
 
 export interface MsgUnjail {
@@ -12,10 +12,10 @@ export interface MsgUnjailSDKType {
 }
 /** MsgUnjailResponse defines the Msg/Unjail response type */
 
-export interface MsgUnjailResponse {}
+export interface MsgUnjailResponse { }
 /** MsgUnjailResponse defines the Msg/Unjail response type */
 
-export interface MsgUnjailResponseSDKType {}
+export interface MsgUnjailResponseSDKType { }
 
 function createBaseMsgUnjail(): MsgUnjail {
   return {

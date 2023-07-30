@@ -1,7 +1,7 @@
 import { Grant, GrantSDKType } from "./authz";
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * MsgGrant is a request type for Grant method. It declares authorization to the grantee
  * on behalf of the granter with the provided expiration time.
@@ -66,10 +66,10 @@ export interface MsgExecSDKType {
 }
 /** MsgGrantResponse defines the Msg/MsgGrant response type. */
 
-export interface MsgGrantResponse {}
+export interface MsgGrantResponse { }
 /** MsgGrantResponse defines the Msg/MsgGrant response type. */
 
-export interface MsgGrantResponseSDKType {}
+export interface MsgGrantResponseSDKType { }
 /**
  * MsgRevoke revokes any authorization with the provided sdk.Msg type on the
  * granter's account with that has been granted to the grantee.
@@ -92,10 +92,10 @@ export interface MsgRevokeSDKType {
 }
 /** MsgRevokeResponse defines the Msg/MsgRevokeResponse response type. */
 
-export interface MsgRevokeResponse {}
+export interface MsgRevokeResponse { }
 /** MsgRevokeResponse defines the Msg/MsgRevokeResponse response type. */
 
-export interface MsgRevokeResponseSDKType {}
+export interface MsgRevokeResponseSDKType { }
 
 function createBaseMsgGrant(): MsgGrant {
   return {

@@ -1,6 +1,6 @@
 import { BandOracleRequest, BandOracleRequestSDKType, BandIBCParams, BandIBCParamsSDKType } from "./oracle";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 export interface GrantBandOraclePrivilegeProposal {
     title: string;
     description: string;

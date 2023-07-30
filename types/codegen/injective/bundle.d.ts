@@ -10347,7 +10347,7 @@ export declare namespace injective {
     }
     const ClientFactory: {
         createRPCMsgClient: ({ rpc }: {
-            rpc: import("@osmonauts/helpers").Rpc;
+            rpc: import("@cosmology/helpers").Rpc;
         }) => Promise<{
             cosmos: {
                 authz: {

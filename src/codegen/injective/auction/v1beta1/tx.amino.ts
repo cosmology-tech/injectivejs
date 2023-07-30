@@ -1,5 +1,5 @@
 import { AminoMsg } from "@cosmjs/amino";
-import { Long } from "@osmonauts/helpers";
+import { Long } from "@cosmology/helpers";
 import { MsgBid } from "./tx";
 export interface AminoMsgBid extends AminoMsg {
   type: "auction/MsgBid";

@@ -2,7 +2,7 @@ import { SubaccountOrderData, SubaccountOrderDataSDKType, SubaccountOrderbookMet
 import { Balance, BalanceSDKType, DerivativePosition, DerivativePositionSDKType, GenesisState, GenesisStateSDKType } from "./genesis";
 import { MetadataStatistics, MetadataStatisticsSDKType } from "../../oracle/v1beta1/oracle";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** CancellationStrategy is the list of cancellation strategies. */
 
 export enum CancellationStrategy {
@@ -100,10 +100,10 @@ export interface SubaccountOrderbookMetadataWithMarketSDKType {
 }
 /** QueryExchangeParamsRequest is the request type for the Query/ExchangeParams RPC method. */
 
-export interface QueryExchangeParamsRequest {}
+export interface QueryExchangeParamsRequest { }
 /** QueryExchangeParamsRequest is the request type for the Query/ExchangeParams RPC method. */
 
-export interface QueryExchangeParamsRequestSDKType {}
+export interface QueryExchangeParamsRequestSDKType { }
 /** QueryExchangeParamsRequest is the response type for the Query/ExchangeParams RPC method. */
 
 export interface QueryExchangeParamsResponse {
@@ -150,10 +150,10 @@ export interface QuerySubaccountDepositsResponseSDKType {
 }
 /** QueryExchangeBalancesRequest is the request type for the Query/ExchangeBalances RPC method. */
 
-export interface QueryExchangeBalancesRequest {}
+export interface QueryExchangeBalancesRequest { }
 /** QueryExchangeBalancesRequest is the request type for the Query/ExchangeBalances RPC method. */
 
-export interface QueryExchangeBalancesRequestSDKType {}
+export interface QueryExchangeBalancesRequestSDKType { }
 /** QuerySubaccountDepositsResponse is the response type for the Query/SubaccountDeposits RPC method. */
 
 export interface QueryExchangeBalancesResponse {
@@ -902,10 +902,10 @@ export interface QuerySubaccountTradeNonceResponseSDKType {
 }
 /** QueryModuleStateRequest is the request type for the Query/ExchangeModuleState RPC method. */
 
-export interface QueryModuleStateRequest {}
+export interface QueryModuleStateRequest { }
 /** QueryModuleStateRequest is the request type for the Query/ExchangeModuleState RPC method. */
 
-export interface QueryModuleStateRequestSDKType {}
+export interface QueryModuleStateRequestSDKType { }
 /** QueryModuleStateResponse is the response type for the Query/ExchangeModuleState RPC method. */
 
 export interface QueryModuleStateResponse {
@@ -918,10 +918,10 @@ export interface QueryModuleStateResponseSDKType {
 }
 /** QueryPositionsRequest is the request type for the Query/Positions RPC method. */
 
-export interface QueryPositionsRequest {}
+export interface QueryPositionsRequest { }
 /** QueryPositionsRequest is the request type for the Query/Positions RPC method. */
 
-export interface QueryPositionsRequestSDKType {}
+export interface QueryPositionsRequestSDKType { }
 /** QueryPositionsResponse is the response type for the Query/Positions RPC method. */
 
 export interface QueryPositionsResponse {
@@ -956,10 +956,10 @@ export interface QueryTradeRewardPointsResponseSDKType {
 }
 /** QueryTradeRewardCampaignRequest is the request type for the Query/TradeRewardCampaign RPC method. */
 
-export interface QueryTradeRewardCampaignRequest {}
+export interface QueryTradeRewardCampaignRequest { }
 /** QueryTradeRewardCampaignRequest is the request type for the Query/TradeRewardCampaign RPC method. */
 
-export interface QueryTradeRewardCampaignRequestSDKType {}
+export interface QueryTradeRewardCampaignRequestSDKType { }
 /** QueryTradeRewardCampaignResponse is the response type for the Query/TradeRewardCampaign RPC method. */
 
 export interface QueryTradeRewardCampaignResponse {
@@ -1000,10 +1000,10 @@ export interface QueryIsOptedOutOfRewardsResponseSDKType {
 }
 /** QueryRegisteredDMMsRequest is the request type for the Query/RegisteredDMMs RPC method. */
 
-export interface QueryOptedOutOfRewardsAccountsRequest {}
+export interface QueryOptedOutOfRewardsAccountsRequest { }
 /** QueryRegisteredDMMsRequest is the request type for the Query/RegisteredDMMs RPC method. */
 
-export interface QueryOptedOutOfRewardsAccountsRequestSDKType {}
+export interface QueryOptedOutOfRewardsAccountsRequestSDKType { }
 /** QueryRegisteredDMMsResponse is the response type for the Query/RegisteredDMMs RPC method. */
 
 export interface QueryOptedOutOfRewardsAccountsResponse {
@@ -1040,10 +1040,10 @@ export interface QueryFeeDiscountAccountInfoResponseSDKType {
 }
 /** QueryFeeDiscountScheduleRequest is the request type for the Query/FeeDiscountSchedule RPC method. */
 
-export interface QueryFeeDiscountScheduleRequest {}
+export interface QueryFeeDiscountScheduleRequest { }
 /** QueryFeeDiscountScheduleRequest is the request type for the Query/FeeDiscountSchedule RPC method. */
 
-export interface QueryFeeDiscountScheduleRequestSDKType {}
+export interface QueryFeeDiscountScheduleRequestSDKType { }
 /** QueryFeeDiscountScheduleResponse is the response type for the Query/FeeDiscountSchedule RPC method. */
 
 export interface QueryFeeDiscountScheduleResponse {
@@ -1094,10 +1094,10 @@ export interface QueryBalanceMismatchesResponseSDKType {
 }
 /** QueryBalanceWithBalanceHoldsRequest is the request type for the Query/QueryBalanceWithBalanceHolds RPC method. */
 
-export interface QueryBalanceWithBalanceHoldsRequest {}
+export interface QueryBalanceWithBalanceHoldsRequest { }
 /** QueryBalanceWithBalanceHoldsRequest is the request type for the Query/QueryBalanceWithBalanceHolds RPC method. */
 
-export interface QueryBalanceWithBalanceHoldsRequestSDKType {}
+export interface QueryBalanceWithBalanceHoldsRequestSDKType { }
 export interface BalanceWithMarginHold {
   subaccountId: string;
   denom: string;
@@ -1124,10 +1124,10 @@ export interface QueryBalanceWithBalanceHoldsResponseSDKType {
 }
 /** QueryFeeDiscountTierStatisticsRequest is the request type for the Query/QueryFeeDiscountTierStatistics RPC method. */
 
-export interface QueryFeeDiscountTierStatisticsRequest {}
+export interface QueryFeeDiscountTierStatisticsRequest { }
 /** QueryFeeDiscountTierStatisticsRequest is the request type for the Query/QueryFeeDiscountTierStatistics RPC method. */
 
-export interface QueryFeeDiscountTierStatisticsRequestSDKType {}
+export interface QueryFeeDiscountTierStatisticsRequestSDKType { }
 export interface TierStatistic {
   tier: Long;
   count: Long;
@@ -1148,10 +1148,10 @@ export interface QueryFeeDiscountTierStatisticsResponseSDKType {
 }
 /** NinjaVaultInfosRequest is the request type for the Query/NinjaVaultInfos RPC method. */
 
-export interface NinjaVaultInfosRequest {}
+export interface NinjaVaultInfosRequest { }
 /** NinjaVaultInfosRequest is the request type for the Query/NinjaVaultInfos RPC method. */
 
-export interface NinjaVaultInfosRequestSDKType {}
+export interface NinjaVaultInfosRequestSDKType { }
 /** NinjaVaultInfosResponse is the response type for the Query/NinjaVaultInfos RPC method. */
 
 export interface NinjaVaultInfosResponse {

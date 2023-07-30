@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** MsgRelayProviderPrice defines a SDK message for setting a price through the provider oracle. */
 export interface MsgRelayProviderPrices {
     sender: string;

@@ -1,6 +1,6 @@
 import { BaseAccount, BaseAccountSDKType } from "../../../cosmos/auth/v1beta1/auth";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * EthAccount implements the authtypes.AccountI interface and embeds an
  * authtypes.BaseAccount type. It is compatible with the auth AccountKeeper.

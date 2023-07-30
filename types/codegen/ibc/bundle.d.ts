@@ -81,7 +81,7 @@ export declare namespace ibc {
                             };
                             sender: string;
                             receiver: string;
-                            timeout_height: import("@osmonauts/helpers").AminoHeight;
+                            timeout_height: import("@cosmology/helpers").AminoHeight;
                             timeout_timestamp: string;
                         };
                         fromAmino: ({ source_port, source_channel, token, sender, receiver, timeout_height, timeout_timestamp }: {
@@ -93,7 +93,7 @@ export declare namespace ibc {
                             };
                             sender: string;
                             receiver: string;
-                            timeout_height: import("@osmonauts/helpers").AminoHeight;
+                            timeout_height: import("@cosmology/helpers").AminoHeight;
                             timeout_timestamp: string;
                         }) => _114.MsgTransfer;
                     };
@@ -427,7 +427,7 @@ export declare namespace ibc {
                             };
                             counterparty_version: string;
                             proof_init: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ port_id, previous_channel_id, channel, counterparty_version, proof_init, proof_height, signer }: {
@@ -445,7 +445,7 @@ export declare namespace ibc {
                             };
                             counterparty_version: string;
                             proof_init: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _119.MsgChannelOpenTry;
                     };
@@ -457,7 +457,7 @@ export declare namespace ibc {
                             counterparty_channel_id: string;
                             counterparty_version: string;
                             proof_try: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ port_id, channel_id, counterparty_channel_id, counterparty_version, proof_try, proof_height, signer }: {
@@ -466,7 +466,7 @@ export declare namespace ibc {
                             counterparty_channel_id: string;
                             counterparty_version: string;
                             proof_try: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _119.MsgChannelOpenAck;
                     };
@@ -476,14 +476,14 @@ export declare namespace ibc {
                             port_id: string;
                             channel_id: string;
                             proof_ack: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ port_id, channel_id, proof_ack, proof_height, signer }: {
                             port_id: string;
                             channel_id: string;
                             proof_ack: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _119.MsgChannelOpenConfirm;
                     };
@@ -506,14 +506,14 @@ export declare namespace ibc {
                             port_id: string;
                             channel_id: string;
                             proof_init: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ port_id, channel_id, proof_init, proof_height, signer }: {
                             port_id: string;
                             channel_id: string;
                             proof_init: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _119.MsgChannelCloseConfirm;
                     };
@@ -527,11 +527,11 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             proof_commitment: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ packet, proof_commitment, proof_height, signer }: {
@@ -542,11 +542,11 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             proof_commitment: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _119.MsgRecvPacket;
                     };
@@ -560,11 +560,11 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             proof_unreceived: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             next_sequence_recv: string;
                             signer: string;
                         };
@@ -576,11 +576,11 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             proof_unreceived: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             next_sequence_recv: string;
                             signer: string;
                         }) => _119.MsgTimeout;
@@ -595,12 +595,12 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             proof_unreceived: Uint8Array;
                             proof_close: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             next_sequence_recv: string;
                             signer: string;
                         };
@@ -612,12 +612,12 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             proof_unreceived: Uint8Array;
                             proof_close: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             next_sequence_recv: string;
                             signer: string;
                         }) => _119.MsgTimeoutOnClose;
@@ -632,12 +632,12 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             acknowledgement: Uint8Array;
                             proof_acked: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ packet, acknowledgement, proof_acked, proof_height, signer }: {
@@ -648,12 +648,12 @@ export declare namespace ibc {
                                 destination_port: string;
                                 destination_channel: string;
                                 data: Uint8Array;
-                                timeout_height: import("@osmonauts/helpers").AminoHeight;
+                                timeout_height: import("@cosmology/helpers").AminoHeight;
                                 timeout_timestamp: string;
                             };
                             acknowledgement: Uint8Array;
                             proof_acked: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _119.MsgAcknowledgement;
                     };
@@ -2283,11 +2283,11 @@ export declare namespace ibc {
                                 identifier: string;
                                 features: string[];
                             }[];
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             proof_init: Uint8Array;
                             proof_client: Uint8Array;
                             proof_consensus: Uint8Array;
-                            consensus_height: import("@osmonauts/helpers").AminoHeight;
+                            consensus_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ client_id, previous_connection_id, client_state, counterparty, delay_period, counterparty_versions, proof_height, proof_init, proof_client, proof_consensus, consensus_height, signer }: {
@@ -2309,11 +2309,11 @@ export declare namespace ibc {
                                 identifier: string;
                                 features: string[];
                             }[];
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             proof_init: Uint8Array;
                             proof_client: Uint8Array;
                             proof_consensus: Uint8Array;
-                            consensus_height: import("@osmonauts/helpers").AminoHeight;
+                            consensus_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _128.MsgConnectionOpenTry;
                     };
@@ -2330,11 +2330,11 @@ export declare namespace ibc {
                                 type_url: string;
                                 value: Uint8Array;
                             };
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             proof_try: Uint8Array;
                             proof_client: Uint8Array;
                             proof_consensus: Uint8Array;
-                            consensus_height: import("@osmonauts/helpers").AminoHeight;
+                            consensus_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ connection_id, counterparty_connection_id, version, client_state, proof_height, proof_try, proof_client, proof_consensus, consensus_height, signer }: {
@@ -2348,11 +2348,11 @@ export declare namespace ibc {
                                 type_url: string;
                                 value: Uint8Array;
                             };
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             proof_try: Uint8Array;
                             proof_client: Uint8Array;
                             proof_consensus: Uint8Array;
-                            consensus_height: import("@osmonauts/helpers").AminoHeight;
+                            consensus_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _128.MsgConnectionOpenAck;
                     };
@@ -2361,13 +2361,13 @@ export declare namespace ibc {
                         toAmino: ({ connectionId, proofAck, proofHeight, signer }: _128.MsgConnectionOpenConfirm) => {
                             connection_id: string;
                             proof_ack: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         };
                         fromAmino: ({ connection_id, proof_ack, proof_height, signer }: {
                             connection_id: string;
                             proof_ack: Uint8Array;
-                            proof_height: import("@osmonauts/helpers").AminoHeight;
+                            proof_height: import("@cosmology/helpers").AminoHeight;
                             signer: string;
                         }) => _128.MsgConnectionOpenConfirm;
                     };
@@ -3693,7 +3693,7 @@ export declare namespace ibc {
     }
     const ClientFactory: {
         createRPCMsgClient: ({ rpc }: {
-            rpc: import("@osmonauts/helpers").Rpc;
+            rpc: import("@cosmology/helpers").Rpc;
         }) => Promise<{
             cosmos: {
                 authz: {

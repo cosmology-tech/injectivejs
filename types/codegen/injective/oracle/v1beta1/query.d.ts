@@ -1,7 +1,7 @@
 import { OracleType, OracleTypeSDKType, OracleInfo, OracleInfoSDKType, Params, ParamsSDKType, BandPriceState, BandPriceStateSDKType, PriceFeedState, PriceFeedStateSDKType, CoinbasePriceState, CoinbasePriceStateSDKType, PriceState, PriceStateSDKType, PriceRecords, PriceRecordsSDKType, MetadataStatistics, MetadataStatisticsSDKType, PriceRecord, PriceRecordSDKType, ProviderInfo, ProviderInfoSDKType, ProviderState, ProviderStateSDKType } from "./oracle";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** QueryOracleParamsRequest is the request type for the Query/OracleParams RPC method. */
 export interface QueryParamsRequest {
 }

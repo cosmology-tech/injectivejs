@@ -2,7 +2,7 @@ import { Timestamp } from "../../../google/protobuf/timestamp";
 import { Duration, DurationSDKType } from "../../../google/protobuf/duration";
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { toTimestamp, fromTimestamp, DeepPartial, Long } from "@osmonauts/helpers";
+import { toTimestamp, fromTimestamp, DeepPartial, Long } from "@cosmology/helpers";
 /** VoteOption enumerates the valid vote options for a given proposal. */
 
 export enum VoteOption {

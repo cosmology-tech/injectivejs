@@ -1,7 +1,7 @@
 import { PageRequest, PageRequestSDKType, PageResponse, PageResponseSDKType } from "../../base/query/v1beta1/pagination";
 import { Validator, ValidatorSDKType, DelegationResponse, DelegationResponseSDKType, UnbondingDelegation, UnbondingDelegationSDKType, RedelegationResponse, RedelegationResponseSDKType, HistoricalInfo, HistoricalInfoSDKType, Pool, PoolSDKType, Params, ParamsSDKType } from "./staking";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** QueryValidatorsRequest is request type for Query/Validators RPC method. */
 
 export interface QueryValidatorsRequest {
@@ -506,10 +506,10 @@ export interface QueryHistoricalInfoResponseSDKType {
 }
 /** QueryPoolRequest is request type for the Query/Pool RPC method. */
 
-export interface QueryPoolRequest {}
+export interface QueryPoolRequest { }
 /** QueryPoolRequest is request type for the Query/Pool RPC method. */
 
-export interface QueryPoolRequestSDKType {}
+export interface QueryPoolRequestSDKType { }
 /** QueryPoolResponse is response type for the Query/Pool RPC method. */
 
 export interface QueryPoolResponse {
@@ -524,10 +524,10 @@ export interface QueryPoolResponseSDKType {
 }
 /** QueryParamsRequest is request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 /** QueryParamsRequest is request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequestSDKType {}
+export interface QueryParamsRequestSDKType { }
 /** QueryParamsResponse is response type for the Query/Params RPC method. */
 
 export interface QueryParamsResponse {

@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** ModuleDescriptor describes an app module. */
 export interface ModuleDescriptor {
     /**

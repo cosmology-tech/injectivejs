@@ -1,6 +1,6 @@
 import { CapabilityOwners, CapabilityOwnersSDKType } from "./capability";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** GenesisOwners defines the capability owners with their corresponding index. */
 
 export interface GenesisOwners {

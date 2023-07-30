@@ -3,7 +3,7 @@ import { Any, AnySDKType } from "../../../google/protobuf/any";
 import { Coin, CoinSDKType } from "../../base/v1beta1/coin";
 import { Timestamp } from "../../../google/protobuf/timestamp";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, toTimestamp, fromTimestamp } from "@osmonauts/helpers";
+import { DeepPartial, toTimestamp, fromTimestamp } from "@cosmology/helpers";
 /** MsgCreateValidator defines a SDK message for creating a new validator. */
 
 export interface MsgCreateValidator {
@@ -28,10 +28,10 @@ export interface MsgCreateValidatorSDKType {
 }
 /** MsgCreateValidatorResponse defines the Msg/CreateValidator response type. */
 
-export interface MsgCreateValidatorResponse {}
+export interface MsgCreateValidatorResponse { }
 /** MsgCreateValidatorResponse defines the Msg/CreateValidator response type. */
 
-export interface MsgCreateValidatorResponseSDKType {}
+export interface MsgCreateValidatorResponseSDKType { }
 /** MsgEditValidator defines a SDK message for editing an existing validator. */
 
 export interface MsgEditValidator {
@@ -64,10 +64,10 @@ export interface MsgEditValidatorSDKType {
 }
 /** MsgEditValidatorResponse defines the Msg/EditValidator response type. */
 
-export interface MsgEditValidatorResponse {}
+export interface MsgEditValidatorResponse { }
 /** MsgEditValidatorResponse defines the Msg/EditValidator response type. */
 
-export interface MsgEditValidatorResponseSDKType {}
+export interface MsgEditValidatorResponseSDKType { }
 /**
  * MsgDelegate defines a SDK message for performing a delegation of coins
  * from a delegator to a validator.
@@ -90,10 +90,10 @@ export interface MsgDelegateSDKType {
 }
 /** MsgDelegateResponse defines the Msg/Delegate response type. */
 
-export interface MsgDelegateResponse {}
+export interface MsgDelegateResponse { }
 /** MsgDelegateResponse defines the Msg/Delegate response type. */
 
-export interface MsgDelegateResponseSDKType {}
+export interface MsgDelegateResponseSDKType { }
 /**
  * MsgBeginRedelegate defines a SDK message for performing a redelegation
  * of coins from a delegator and source validator to a destination validator.

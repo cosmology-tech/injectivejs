@@ -1,18 +1,18 @@
 import { Plan, PlanSDKType, ModuleVersion, ModuleVersionSDKType } from "./upgrade";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /**
  * QueryCurrentPlanRequest is the request type for the Query/CurrentPlan RPC
  * method.
  */
 
-export interface QueryCurrentPlanRequest {}
+export interface QueryCurrentPlanRequest { }
 /**
  * QueryCurrentPlanRequest is the request type for the Query/CurrentPlan RPC
  * method.
  */
 
-export interface QueryCurrentPlanRequestSDKType {}
+export interface QueryCurrentPlanRequestSDKType { }
 /**
  * QueryCurrentPlanResponse is the response type for the Query/CurrentPlan RPC
  * method.
@@ -175,14 +175,14 @@ export interface QueryModuleVersionsResponseSDKType {
  * Since: cosmos-sdk 0.46
  */
 
-export interface QueryAuthorityRequest {}
+export interface QueryAuthorityRequest { }
 /**
  * QueryAuthorityRequest is the request type for Query/Authority
  * 
  * Since: cosmos-sdk 0.46
  */
 
-export interface QueryAuthorityRequestSDKType {}
+export interface QueryAuthorityRequestSDKType { }
 /**
  * QueryAuthorityResponse is the response type for Query/Authority
  * 

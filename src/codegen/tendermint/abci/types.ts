@@ -4,7 +4,7 @@ import { ProofOps, ProofOpsSDKType } from "../crypto/proof";
 import { EvidenceParams, EvidenceParamsSDKType, ValidatorParams, ValidatorParamsSDKType, VersionParams, VersionParamsSDKType } from "../types/params";
 import { PublicKey, PublicKeySDKType } from "../crypto/keys";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long, toTimestamp, fromTimestamp } from "@osmonauts/helpers";
+import { DeepPartial, Long, toTimestamp, fromTimestamp } from "@cosmology/helpers";
 export enum CheckTxType {
   NEW = 0,
   RECHECK = 1,
@@ -322,8 +322,8 @@ export interface RequestEcho {
 export interface RequestEchoSDKType {
   message: string;
 }
-export interface RequestFlush {}
-export interface RequestFlushSDKType {}
+export interface RequestFlush { }
+export interface RequestFlushSDKType { }
 export interface RequestInfo {
   version: string;
   blockVersion: Long;
@@ -406,14 +406,14 @@ export interface RequestEndBlock {
 export interface RequestEndBlockSDKType {
   height: Long;
 }
-export interface RequestCommit {}
-export interface RequestCommitSDKType {}
+export interface RequestCommit { }
+export interface RequestCommitSDKType { }
 /** lists available snapshots */
 
-export interface RequestListSnapshots {}
+export interface RequestListSnapshots { }
 /** lists available snapshots */
 
-export interface RequestListSnapshotsSDKType {}
+export interface RequestListSnapshotsSDKType { }
 /** offers a snapshot to the application */
 
 export interface RequestOfferSnapshot {
@@ -512,8 +512,8 @@ export interface ResponseEcho {
 export interface ResponseEchoSDKType {
   message: string;
 }
-export interface ResponseFlush {}
-export interface ResponseFlushSDKType {}
+export interface ResponseFlush { }
+export interface ResponseFlushSDKType { }
 export interface ResponseInfo {
   data: string;
   version: string;

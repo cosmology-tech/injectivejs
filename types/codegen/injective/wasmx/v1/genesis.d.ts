@@ -1,6 +1,6 @@
 import { Params, ParamsSDKType } from "./wasmx";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** GenesisState defines the wasmx module's genesis state. */
 export interface GenesisState {
     /** params defines all the parameters of related to wasmx. */

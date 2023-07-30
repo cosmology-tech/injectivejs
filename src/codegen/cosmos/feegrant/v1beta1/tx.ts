@@ -1,6 +1,6 @@
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * MsgGrantAllowance adds permission for Grantee to spend up to Allowance
  * of fees from the account of Granter.
@@ -33,10 +33,10 @@ export interface MsgGrantAllowanceSDKType {
 }
 /** MsgGrantAllowanceResponse defines the Msg/GrantAllowanceResponse response type. */
 
-export interface MsgGrantAllowanceResponse {}
+export interface MsgGrantAllowanceResponse { }
 /** MsgGrantAllowanceResponse defines the Msg/GrantAllowanceResponse response type. */
 
-export interface MsgGrantAllowanceResponseSDKType {}
+export interface MsgGrantAllowanceResponseSDKType { }
 /** MsgRevokeAllowance removes any existing Allowance from Granter to Grantee. */
 
 export interface MsgRevokeAllowance {
@@ -57,10 +57,10 @@ export interface MsgRevokeAllowanceSDKType {
 }
 /** MsgRevokeAllowanceResponse defines the Msg/RevokeAllowanceResponse response type. */
 
-export interface MsgRevokeAllowanceResponse {}
+export interface MsgRevokeAllowanceResponse { }
 /** MsgRevokeAllowanceResponse defines the Msg/RevokeAllowanceResponse response type. */
 
-export interface MsgRevokeAllowanceResponseSDKType {}
+export interface MsgRevokeAllowanceResponseSDKType { }
 
 function createBaseMsgGrantAllowance(): MsgGrantAllowance {
   return {

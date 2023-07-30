@@ -2,7 +2,7 @@ import { Any, AnySDKType } from "../../../google/protobuf/any";
 import { Coin, CoinSDKType } from "../../base/v1beta1/coin";
 import { VoteOption, VoteOptionSDKType, WeightedVoteOption, WeightedVoteOptionSDKType } from "./gov";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /**
  * MsgSubmitProposal defines an sdk.Msg type that supports submitting arbitrary
  * proposal Content.
@@ -49,10 +49,10 @@ export interface MsgVoteSDKType {
 }
 /** MsgVoteResponse defines the Msg/Vote response type. */
 
-export interface MsgVoteResponse {}
+export interface MsgVoteResponse { }
 /** MsgVoteResponse defines the Msg/Vote response type. */
 
-export interface MsgVoteResponseSDKType {}
+export interface MsgVoteResponseSDKType { }
 /**
  * MsgVoteWeighted defines a message to cast a vote.
  * 
@@ -81,14 +81,14 @@ export interface MsgVoteWeightedSDKType {
  * Since: cosmos-sdk 0.43
  */
 
-export interface MsgVoteWeightedResponse {}
+export interface MsgVoteWeightedResponse { }
 /**
  * MsgVoteWeightedResponse defines the Msg/VoteWeighted response type.
  * 
  * Since: cosmos-sdk 0.43
  */
 
-export interface MsgVoteWeightedResponseSDKType {}
+export interface MsgVoteWeightedResponseSDKType { }
 /** MsgDeposit defines a message to submit a deposit to an existing proposal. */
 
 export interface MsgDeposit {
@@ -105,10 +105,10 @@ export interface MsgDepositSDKType {
 }
 /** MsgDepositResponse defines the Msg/Deposit response type. */
 
-export interface MsgDepositResponse {}
+export interface MsgDepositResponse { }
 /** MsgDepositResponse defines the Msg/Deposit response type. */
 
-export interface MsgDepositResponseSDKType {}
+export interface MsgDepositResponseSDKType { }
 
 function createBaseMsgSubmitProposal(): MsgSubmitProposal {
   return {

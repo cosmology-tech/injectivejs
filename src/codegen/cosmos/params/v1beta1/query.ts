@@ -1,6 +1,6 @@
 import { ParamChange, ParamChangeSDKType } from "./params";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryParamsRequest is request type for the Query/Params RPC method. */
 
 export interface QueryParamsRequest {
@@ -36,13 +36,13 @@ export interface QueryParamsResponseSDKType {
  * subspaces and all keys for a subspace.
  */
 
-export interface QuerySubspacesRequest {}
+export interface QuerySubspacesRequest { }
 /**
  * QuerySubspacesRequest defines a request type for querying for all registered
  * subspaces and all keys for a subspace.
  */
 
-export interface QuerySubspacesRequestSDKType {}
+export interface QuerySubspacesRequestSDKType { }
 /**
  * QuerySubspacesResponse defines the response types for querying for all
  * registered subspaces and all keys for a subspace.

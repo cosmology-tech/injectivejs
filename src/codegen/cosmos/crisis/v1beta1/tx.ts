@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** MsgVerifyInvariant represents a message to verify a particular invariance. */
 
 export interface MsgVerifyInvariant {
@@ -16,10 +16,10 @@ export interface MsgVerifyInvariantSDKType {
 }
 /** MsgVerifyInvariantResponse defines the Msg/VerifyInvariant response type. */
 
-export interface MsgVerifyInvariantResponse {}
+export interface MsgVerifyInvariantResponse { }
 /** MsgVerifyInvariantResponse defines the Msg/VerifyInvariant response type. */
 
-export interface MsgVerifyInvariantResponseSDKType {}
+export interface MsgVerifyInvariantResponseSDKType { }
 
 function createBaseMsgVerifyInvariant(): MsgVerifyInvariant {
   return {

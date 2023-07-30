@@ -1,6 +1,6 @@
 import { ERC20Token, ERC20TokenSDKType } from "./attestation";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** OutgoingTxBatch represents a batch of transactions going from Peggy to ETH */
 export interface OutgoingTxBatch {
     batchNonce: Long;

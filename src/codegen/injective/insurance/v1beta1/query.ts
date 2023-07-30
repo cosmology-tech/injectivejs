@@ -2,13 +2,13 @@ import { Params, ParamsSDKType, InsuranceFund, InsuranceFundSDKType } from "./in
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryInsuranceParamsRequest is the request type for the Query/InsuranceParams RPC method. */
 
-export interface QueryInsuranceParamsRequest {}
+export interface QueryInsuranceParamsRequest { }
 /** QueryInsuranceParamsRequest is the request type for the Query/InsuranceParams RPC method. */
 
-export interface QueryInsuranceParamsRequestSDKType {}
+export interface QueryInsuranceParamsRequestSDKType { }
 /** QueryInsuranceParamsRequest is the response type for the Query/InsuranceParams RPC method. */
 
 export interface QueryInsuranceParamsResponse {
@@ -43,10 +43,10 @@ export interface QueryInsuranceFundResponseSDKType {
 }
 /** QueryInsuranceFundsRequest is the request type for the Query/InsuranceFunds RPC method. */
 
-export interface QueryInsuranceFundsRequest {}
+export interface QueryInsuranceFundsRequest { }
 /** QueryInsuranceFundsRequest is the request type for the Query/InsuranceFunds RPC method. */
 
-export interface QueryInsuranceFundsRequestSDKType {}
+export interface QueryInsuranceFundsRequestSDKType { }
 /** QueryInsuranceFundsResponse is the response type for the Query/InsuranceFunds RPC method. */
 
 export interface QueryInsuranceFundsResponse {
@@ -103,10 +103,10 @@ export interface QueryPendingRedemptionsResponseSDKType {
 }
 /** QueryModuleStateRequest is the request type for the Query/InsuranceModuleState RPC method. */
 
-export interface QueryModuleStateRequest {}
+export interface QueryModuleStateRequest { }
 /** QueryModuleStateRequest is the request type for the Query/InsuranceModuleState RPC method. */
 
-export interface QueryModuleStateRequestSDKType {}
+export interface QueryModuleStateRequestSDKType { }
 /** QueryModuleStateResponse is the response type for the Query/InsuranceModuleState RPC method. */
 
 export interface QueryModuleStateResponse {

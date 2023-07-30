@@ -1,7 +1,7 @@
 import { Params, ParamsSDKType, FeedConfig, FeedConfigSDKType, Transmission, TransmissionSDKType, EpochAndRound, EpochAndRoundSDKType } from "./ocr";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** GenesisState defines the OCR module's genesis state. */
 
 export interface GenesisState {

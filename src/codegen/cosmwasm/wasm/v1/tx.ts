@@ -1,7 +1,7 @@
 import { AccessConfig, AccessConfigSDKType } from "./types";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** MsgStoreCode submit Wasm code to the system */
 
 export interface MsgStoreCode {
@@ -226,10 +226,10 @@ export interface MsgUpdateAdminSDKType {
 }
 /** MsgUpdateAdminResponse returns empty data */
 
-export interface MsgUpdateAdminResponse {}
+export interface MsgUpdateAdminResponse { }
 /** MsgUpdateAdminResponse returns empty data */
 
-export interface MsgUpdateAdminResponseSDKType {}
+export interface MsgUpdateAdminResponseSDKType { }
 /** MsgClearAdmin removes any admin stored for a smart contract */
 
 export interface MsgClearAdmin {
@@ -250,10 +250,10 @@ export interface MsgClearAdminSDKType {
 }
 /** MsgClearAdminResponse returns empty data */
 
-export interface MsgClearAdminResponse {}
+export interface MsgClearAdminResponse { }
 /** MsgClearAdminResponse returns empty data */
 
-export interface MsgClearAdminResponseSDKType {}
+export interface MsgClearAdminResponseSDKType { }
 
 function createBaseMsgStoreCode(): MsgStoreCode {
   return {

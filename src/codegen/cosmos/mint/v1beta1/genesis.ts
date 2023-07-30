@@ -1,6 +1,6 @@
 import { Minter, MinterSDKType, Params, ParamsSDKType } from "./mint";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** GenesisState defines the mint module's genesis state. */
 
 export interface GenesisState {

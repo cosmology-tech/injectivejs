@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** IDSet represents a set of IDs */
 export interface IDSet {
     /** IDSet represents a set of IDs */

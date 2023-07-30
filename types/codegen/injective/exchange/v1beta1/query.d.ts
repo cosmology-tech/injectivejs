@@ -2,7 +2,7 @@ import { SubaccountOrderData, SubaccountOrderDataSDKType, SubaccountOrderbookMet
 import { Balance, BalanceSDKType, DerivativePosition, DerivativePositionSDKType, GenesisState, GenesisStateSDKType } from "./genesis";
 import { MetadataStatistics, MetadataStatisticsSDKType } from "../../oracle/v1beta1/oracle";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** CancellationStrategy is the list of cancellation strategies. */
 export declare enum CancellationStrategy {
     /** UnspecifiedOrder - just cancelling in random order in most efficient way */

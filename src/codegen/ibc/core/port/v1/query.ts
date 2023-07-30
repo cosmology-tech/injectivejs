@@ -1,6 +1,6 @@
 import { Order, OrderSDKType, Counterparty, CounterpartySDKType } from "../../channel/v1/channel";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryAppVersionRequest is the request type for the Query/AppVersion RPC method */
 
 export interface QueryAppVersionRequest {

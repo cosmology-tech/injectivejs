@@ -1,4 +1,4 @@
-import { Rpc } from "@osmonauts/helpers";
+import { Rpc } from "@cosmology/helpers";
 import { MsgUnjail, MsgUnjailResponse } from "./tx";
 /** Msg defines the RPC service */
 export interface Msg {

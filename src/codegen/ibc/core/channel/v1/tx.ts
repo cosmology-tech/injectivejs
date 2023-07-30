@@ -1,7 +1,7 @@
 import { Channel, ChannelSDKType, Packet, PacketSDKType } from "./channel";
 import { Height, HeightSDKType } from "../../client/v1/client";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /**
  * MsgChannelOpenInit defines an sdk.Msg to initialize a channel handshake. It
  * is called by a relayer on Chain A.
@@ -24,10 +24,10 @@ export interface MsgChannelOpenInitSDKType {
 }
 /** MsgChannelOpenInitResponse defines the Msg/ChannelOpenInit response type. */
 
-export interface MsgChannelOpenInitResponse {}
+export interface MsgChannelOpenInitResponse { }
 /** MsgChannelOpenInitResponse defines the Msg/ChannelOpenInit response type. */
 
-export interface MsgChannelOpenInitResponseSDKType {}
+export interface MsgChannelOpenInitResponseSDKType { }
 /**
  * MsgChannelOpenInit defines a msg sent by a Relayer to try to open a channel
  * on Chain B.
@@ -68,10 +68,10 @@ export interface MsgChannelOpenTrySDKType {
 }
 /** MsgChannelOpenTryResponse defines the Msg/ChannelOpenTry response type. */
 
-export interface MsgChannelOpenTryResponse {}
+export interface MsgChannelOpenTryResponse { }
 /** MsgChannelOpenTryResponse defines the Msg/ChannelOpenTry response type. */
 
-export interface MsgChannelOpenTryResponseSDKType {}
+export interface MsgChannelOpenTryResponseSDKType { }
 /**
  * MsgChannelOpenAck defines a msg sent by a Relayer to Chain A to acknowledge
  * the change of channel state to TRYOPEN on Chain B.
@@ -102,10 +102,10 @@ export interface MsgChannelOpenAckSDKType {
 }
 /** MsgChannelOpenAckResponse defines the Msg/ChannelOpenAck response type. */
 
-export interface MsgChannelOpenAckResponse {}
+export interface MsgChannelOpenAckResponse { }
 /** MsgChannelOpenAckResponse defines the Msg/ChannelOpenAck response type. */
 
-export interface MsgChannelOpenAckResponseSDKType {}
+export interface MsgChannelOpenAckResponseSDKType { }
 /**
  * MsgChannelOpenConfirm defines a msg sent by a Relayer to Chain B to
  * acknowledge the change of channel state to OPEN on Chain A.
@@ -135,13 +135,13 @@ export interface MsgChannelOpenConfirmSDKType {
  * type.
  */
 
-export interface MsgChannelOpenConfirmResponse {}
+export interface MsgChannelOpenConfirmResponse { }
 /**
  * MsgChannelOpenConfirmResponse defines the Msg/ChannelOpenConfirm response
  * type.
  */
 
-export interface MsgChannelOpenConfirmResponseSDKType {}
+export interface MsgChannelOpenConfirmResponseSDKType { }
 /**
  * MsgChannelCloseInit defines a msg sent by a Relayer to Chain A
  * to close a channel with Chain B.
@@ -164,10 +164,10 @@ export interface MsgChannelCloseInitSDKType {
 }
 /** MsgChannelCloseInitResponse defines the Msg/ChannelCloseInit response type. */
 
-export interface MsgChannelCloseInitResponse {}
+export interface MsgChannelCloseInitResponse { }
 /** MsgChannelCloseInitResponse defines the Msg/ChannelCloseInit response type. */
 
-export interface MsgChannelCloseInitResponseSDKType {}
+export interface MsgChannelCloseInitResponseSDKType { }
 /**
  * MsgChannelCloseConfirm defines a msg sent by a Relayer to Chain B
  * to acknowledge the change of channel state to CLOSED on Chain A.
@@ -197,13 +197,13 @@ export interface MsgChannelCloseConfirmSDKType {
  * type.
  */
 
-export interface MsgChannelCloseConfirmResponse {}
+export interface MsgChannelCloseConfirmResponse { }
 /**
  * MsgChannelCloseConfirmResponse defines the Msg/ChannelCloseConfirm response
  * type.
  */
 
-export interface MsgChannelCloseConfirmResponseSDKType {}
+export interface MsgChannelCloseConfirmResponseSDKType { }
 /** MsgRecvPacket receives incoming IBC packet */
 
 export interface MsgRecvPacket {
@@ -222,10 +222,10 @@ export interface MsgRecvPacketSDKType {
 }
 /** MsgRecvPacketResponse defines the Msg/RecvPacket response type. */
 
-export interface MsgRecvPacketResponse {}
+export interface MsgRecvPacketResponse { }
 /** MsgRecvPacketResponse defines the Msg/RecvPacket response type. */
 
-export interface MsgRecvPacketResponseSDKType {}
+export interface MsgRecvPacketResponseSDKType { }
 /** MsgTimeout receives timed-out packet */
 
 export interface MsgTimeout {
@@ -246,10 +246,10 @@ export interface MsgTimeoutSDKType {
 }
 /** MsgTimeoutResponse defines the Msg/Timeout response type. */
 
-export interface MsgTimeoutResponse {}
+export interface MsgTimeoutResponse { }
 /** MsgTimeoutResponse defines the Msg/Timeout response type. */
 
-export interface MsgTimeoutResponseSDKType {}
+export interface MsgTimeoutResponseSDKType { }
 /** MsgTimeoutOnClose timed-out packet upon counterparty channel closure. */
 
 export interface MsgTimeoutOnClose {
@@ -272,10 +272,10 @@ export interface MsgTimeoutOnCloseSDKType {
 }
 /** MsgTimeoutOnCloseResponse defines the Msg/TimeoutOnClose response type. */
 
-export interface MsgTimeoutOnCloseResponse {}
+export interface MsgTimeoutOnCloseResponse { }
 /** MsgTimeoutOnCloseResponse defines the Msg/TimeoutOnClose response type. */
 
-export interface MsgTimeoutOnCloseResponseSDKType {}
+export interface MsgTimeoutOnCloseResponseSDKType { }
 /** MsgAcknowledgement receives incoming IBC acknowledgement */
 
 export interface MsgAcknowledgement {
@@ -296,10 +296,10 @@ export interface MsgAcknowledgementSDKType {
 }
 /** MsgAcknowledgementResponse defines the Msg/Acknowledgement response type. */
 
-export interface MsgAcknowledgementResponse {}
+export interface MsgAcknowledgementResponse { }
 /** MsgAcknowledgementResponse defines the Msg/Acknowledgement response type. */
 
-export interface MsgAcknowledgementResponseSDKType {}
+export interface MsgAcknowledgementResponseSDKType { }
 
 function createBaseMsgChannelOpenInit(): MsgChannelOpenInit {
   return {

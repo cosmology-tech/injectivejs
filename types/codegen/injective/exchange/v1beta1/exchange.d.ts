@@ -1,7 +1,7 @@
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { OracleType, OracleTypeSDKType } from "../../oracle/v1beta1/oracle";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 export declare enum MarketStatus {
     Unspecified = 0,
     Active = 1,

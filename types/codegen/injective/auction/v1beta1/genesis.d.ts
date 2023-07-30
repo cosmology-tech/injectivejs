@@ -1,6 +1,6 @@
 import { Params, ParamsSDKType, Bid, BidSDKType } from "./auction";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** GenesisState defines the auction module's genesis state. */
 export interface GenesisState {
     /** params defines all the parameters of related to auction. */

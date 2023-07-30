@@ -3,7 +3,7 @@ import { OracleType, OracleTypeSDKType } from "../../oracle/v1beta1/oracle";
 import { SpotOrder, SpotOrderSDKType, DerivativeOrder, DerivativeOrderSDKType, MarketStatus, MarketStatusSDKType, TradingRewardCampaignInfo, TradingRewardCampaignInfoSDKType, CampaignRewardPool, CampaignRewardPoolSDKType, FeeDiscountSchedule, FeeDiscountScheduleSDKType } from "./exchange";
 import { CommunityPoolSpendProposal, CommunityPoolSpendProposalSDKType } from "../../../cosmos/distribution/v1beta1/distribution";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 export declare enum ExchangeType {
     EXCHANGE_UNSPECIFIED = 0,
     SPOT = 1,

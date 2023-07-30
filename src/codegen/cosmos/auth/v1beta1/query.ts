@@ -2,7 +2,7 @@ import { PageRequest, PageRequestSDKType, PageResponse, PageResponseSDKType } fr
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import { Params, ParamsSDKType } from "./auth";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * QueryAccountsRequest is the request type for the Query/Accounts RPC method.
  * 
@@ -63,10 +63,10 @@ export interface QueryAccountRequestSDKType {
 }
 /** QueryModuleAccountsRequest is the request type for the Query/ModuleAccounts RPC method. */
 
-export interface QueryModuleAccountsRequest {}
+export interface QueryModuleAccountsRequest { }
 /** QueryModuleAccountsRequest is the request type for the Query/ModuleAccounts RPC method. */
 
-export interface QueryModuleAccountsRequestSDKType {}
+export interface QueryModuleAccountsRequestSDKType { }
 /** QueryParamsResponse is the response type for the Query/Params RPC method. */
 
 export interface QueryParamsResponse {
@@ -93,10 +93,10 @@ export interface QueryAccountResponseSDKType {
 }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequestSDKType {}
+export interface QueryParamsRequestSDKType { }
 /** QueryModuleAccountsResponse is the response type for the Query/ModuleAccounts RPC method. */
 
 export interface QueryModuleAccountsResponse {
@@ -109,10 +109,10 @@ export interface QueryModuleAccountsResponseSDKType {
 }
 /** Bech32PrefixRequest is the request type for Bech32Prefix rpc method */
 
-export interface Bech32PrefixRequest {}
+export interface Bech32PrefixRequest { }
 /** Bech32PrefixRequest is the request type for Bech32Prefix rpc method */
 
-export interface Bech32PrefixRequestSDKType {}
+export interface Bech32PrefixRequestSDKType { }
 /** Bech32PrefixResponse is the response type for Bech32Prefix rpc method */
 
 export interface Bech32PrefixResponse {

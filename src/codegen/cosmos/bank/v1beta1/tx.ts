@@ -1,7 +1,7 @@
 import { Coin, CoinSDKType } from "../../base/v1beta1/coin";
 import { Input, InputSDKType, Output, OutputSDKType } from "./bank";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** MsgSend represents a message to send coins from one account to another. */
 
 export interface MsgSend {
@@ -18,10 +18,10 @@ export interface MsgSendSDKType {
 }
 /** MsgSendResponse defines the Msg/Send response type. */
 
-export interface MsgSendResponse {}
+export interface MsgSendResponse { }
 /** MsgSendResponse defines the Msg/Send response type. */
 
-export interface MsgSendResponseSDKType {}
+export interface MsgSendResponseSDKType { }
 /** MsgMultiSend represents an arbitrary multi-in, multi-out send message. */
 
 export interface MsgMultiSend {
@@ -36,10 +36,10 @@ export interface MsgMultiSendSDKType {
 }
 /** MsgMultiSendResponse defines the Msg/MultiSend response type. */
 
-export interface MsgMultiSendResponse {}
+export interface MsgMultiSendResponse { }
 /** MsgMultiSendResponse defines the Msg/MultiSend response type. */
 
-export interface MsgMultiSendResponseSDKType {}
+export interface MsgMultiSendResponseSDKType { }
 
 function createBaseMsgSend(): MsgSend {
   return {

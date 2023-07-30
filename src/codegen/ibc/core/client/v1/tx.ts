@@ -1,6 +1,6 @@
 import { Any, AnySDKType } from "../../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** MsgCreateClient defines a message to create an IBC client */
 
 export interface MsgCreateClient {
@@ -33,10 +33,10 @@ export interface MsgCreateClientSDKType {
 }
 /** MsgCreateClientResponse defines the Msg/CreateClient response type. */
 
-export interface MsgCreateClientResponse {}
+export interface MsgCreateClientResponse { }
 /** MsgCreateClientResponse defines the Msg/CreateClient response type. */
 
-export interface MsgCreateClientResponseSDKType {}
+export interface MsgCreateClientResponseSDKType { }
 /**
  * MsgUpdateClient defines an sdk.Msg to update a IBC client state using
  * the given header.
@@ -69,10 +69,10 @@ export interface MsgUpdateClientSDKType {
 }
 /** MsgUpdateClientResponse defines the Msg/UpdateClient response type. */
 
-export interface MsgUpdateClientResponse {}
+export interface MsgUpdateClientResponse { }
 /** MsgUpdateClientResponse defines the Msg/UpdateClient response type. */
 
-export interface MsgUpdateClientResponseSDKType {}
+export interface MsgUpdateClientResponseSDKType { }
 /**
  * MsgUpgradeClient defines an sdk.Msg to upgrade an IBC client to a new client
  * state
@@ -129,10 +129,10 @@ export interface MsgUpgradeClientSDKType {
 }
 /** MsgUpgradeClientResponse defines the Msg/UpgradeClient response type. */
 
-export interface MsgUpgradeClientResponse {}
+export interface MsgUpgradeClientResponse { }
 /** MsgUpgradeClientResponse defines the Msg/UpgradeClient response type. */
 
-export interface MsgUpgradeClientResponseSDKType {}
+export interface MsgUpgradeClientResponseSDKType { }
 /**
  * MsgSubmitMisbehaviour defines an sdk.Msg type that submits Evidence for
  * light client misbehaviour.
@@ -168,13 +168,13 @@ export interface MsgSubmitMisbehaviourSDKType {
  * type.
  */
 
-export interface MsgSubmitMisbehaviourResponse {}
+export interface MsgSubmitMisbehaviourResponse { }
 /**
  * MsgSubmitMisbehaviourResponse defines the Msg/SubmitMisbehaviour response
  * type.
  */
 
-export interface MsgSubmitMisbehaviourResponseSDKType {}
+export interface MsgSubmitMisbehaviourResponseSDKType { }
 
 function createBaseMsgCreateClient(): MsgCreateClient {
   return {

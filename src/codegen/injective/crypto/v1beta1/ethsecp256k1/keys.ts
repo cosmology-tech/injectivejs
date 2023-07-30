@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * PubKey defines a type alias for an ecdsa.PublicKey that implements
  * Tendermint's PubKey interface. It represents the 33-byte compressed public

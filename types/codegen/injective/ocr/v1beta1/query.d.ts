@@ -2,7 +2,7 @@ import { Params, ParamsSDKType, FeedConfigInfo, FeedConfigInfoSDKType, FeedConfi
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 export interface QueryParamsRequest {
 }
 export interface QueryParamsRequestSDKType {

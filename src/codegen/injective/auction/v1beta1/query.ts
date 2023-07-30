@@ -2,13 +2,13 @@ import { Params, ParamsSDKType } from "./auction";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** QueryAuctionParamsRequest is the request type for the Query/AuctionParams RPC method. */
 
-export interface QueryAuctionParamsRequest {}
+export interface QueryAuctionParamsRequest { }
 /** QueryAuctionParamsRequest is the request type for the Query/AuctionParams RPC method. */
 
-export interface QueryAuctionParamsRequestSDKType {}
+export interface QueryAuctionParamsRequestSDKType { }
 /** QueryAuctionParamsRequest is the response type for the Query/AuctionParams RPC method. */
 
 export interface QueryAuctionParamsResponse {
@@ -21,10 +21,10 @@ export interface QueryAuctionParamsResponseSDKType {
 }
 /** QueryCurrentAuctionBasketRequest is the request type for the Query/CurrentAuctionBasket RPC method. */
 
-export interface QueryCurrentAuctionBasketRequest {}
+export interface QueryCurrentAuctionBasketRequest { }
 /** QueryCurrentAuctionBasketRequest is the request type for the Query/CurrentAuctionBasket RPC method. */
 
-export interface QueryCurrentAuctionBasketRequestSDKType {}
+export interface QueryCurrentAuctionBasketRequestSDKType { }
 /** QueryCurrentAuctionBasketResponse is the response type for the Query/CurrentAuctionBasket RPC method. */
 
 export interface QueryCurrentAuctionBasketResponse {
@@ -63,10 +63,10 @@ export interface QueryCurrentAuctionBasketResponseSDKType {
 }
 /** QueryModuleStateRequest is the request type for the Query/AuctionModuleState RPC method. */
 
-export interface QueryModuleStateRequest {}
+export interface QueryModuleStateRequest { }
 /** QueryModuleStateRequest is the request type for the Query/AuctionModuleState RPC method. */
 
-export interface QueryModuleStateRequestSDKType {}
+export interface QueryModuleStateRequestSDKType { }
 /** QueryModuleStateResponse is the response type for the Query/AuctionModuleState RPC method. */
 
 export interface QueryModuleStateResponse {

@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** MsgSend represents a message to send a nft from one account to another account. */
 export interface MsgSend {
     /** class_id defines the unique identifier of the nft classification, similar to the contract address of ERC721 */

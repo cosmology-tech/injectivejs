@@ -1,7 +1,7 @@
 import { ClaimType, ClaimTypeSDKType } from "./attestation";
 import { BridgeValidator, BridgeValidatorSDKType } from "./types";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 export interface EventAttestationObserved {
     attestationType: ClaimType;
     bridgeContract: string;

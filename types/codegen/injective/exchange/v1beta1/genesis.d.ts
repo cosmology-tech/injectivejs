@@ -1,7 +1,7 @@
 import { Params, ParamsSDKType, SpotMarket, SpotMarketSDKType, DerivativeMarket, DerivativeMarketSDKType, PerpetualMarketInfo, PerpetualMarketInfoSDKType, DerivativeMarketSettlementInfo, DerivativeMarketSettlementInfoSDKType, TradingRewardCampaignInfo, TradingRewardCampaignInfoSDKType, CampaignRewardPool, CampaignRewardPoolSDKType, FeeDiscountSchedule, FeeDiscountScheduleSDKType, TradeRecords, TradeRecordsSDKType, BinaryOptionsMarket, BinaryOptionsMarketSDKType, FeeDiscountTierTTL, FeeDiscountTierTTLSDKType, SpotLimitOrder, SpotLimitOrderSDKType, DerivativeLimitOrder, DerivativeLimitOrderSDKType, DerivativeMarketOrder, DerivativeMarketOrderSDKType, Deposit, DepositSDKType, Position, PositionSDKType, SubaccountTradeNonce, SubaccountTradeNonceSDKType, ExpiryFuturesMarketInfo, ExpiryFuturesMarketInfoSDKType, PerpetualMarketFunding, PerpetualMarketFundingSDKType } from "./exchange";
 import { DenomDecimals, DenomDecimalsSDKType } from "./tx";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** GenesisState defines the exchange module's genesis state. */
 export interface GenesisState {
     /** params defines all the parameters of related to exchange. */

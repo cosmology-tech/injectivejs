@@ -1,7 +1,7 @@
 import { Params, ParamsSDKType } from "./wasmx";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryWasmxParamsRequest is the request type for the Query/WasmxParams RPC method. */
 export interface QueryWasmxParamsRequest {
 }

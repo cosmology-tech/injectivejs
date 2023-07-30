@@ -1,5 +1,5 @@
 import { AminoMsg } from "@cosmjs/amino";
-import { Long } from "@osmonauts/helpers";
+import { Long } from "@cosmology/helpers";
 import { MsgCreateFeed, MsgUpdateFeed, MsgTransmit, MsgFundFeedRewardPool, MsgWithdrawFeedRewardPool, MsgSetPayees, MsgTransferPayeeship, MsgAcceptPayeeship } from "./tx";
 export interface AminoMsgCreateFeed extends AminoMsg {
   type: "/injective.ocr.v1beta1.MsgCreateFeed";

@@ -2,7 +2,7 @@ import { PageRequest, PageRequestSDKType, PageResponse, PageResponseSDKType } fr
 import { Any, AnySDKType } from "../../../../google/protobuf/any";
 import { Height, HeightSDKType, IdentifiedClientState, IdentifiedClientStateSDKType, ConsensusStateWithHeight, ConsensusStateWithHeightSDKType, Params, ParamsSDKType } from "./client";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /**
  * QueryClientStateRequest is the request type for the Query/ClientState RPC
  * method
@@ -256,13 +256,13 @@ export interface QueryClientStatusResponseSDKType {
  * method.
  */
 
-export interface QueryClientParamsRequest {}
+export interface QueryClientParamsRequest { }
 /**
  * QueryClientParamsRequest is the request type for the Query/ClientParams RPC
  * method.
  */
 
-export interface QueryClientParamsRequestSDKType {}
+export interface QueryClientParamsRequestSDKType { }
 /**
  * QueryClientParamsResponse is the response type for the Query/ClientParams RPC
  * method.
@@ -286,13 +286,13 @@ export interface QueryClientParamsResponseSDKType {
  * Query/UpgradedClientState RPC method
  */
 
-export interface QueryUpgradedClientStateRequest {}
+export interface QueryUpgradedClientStateRequest { }
 /**
  * QueryUpgradedClientStateRequest is the request type for the
  * Query/UpgradedClientState RPC method
  */
 
-export interface QueryUpgradedClientStateRequestSDKType {}
+export interface QueryUpgradedClientStateRequestSDKType { }
 /**
  * QueryUpgradedClientStateResponse is the response type for the
  * Query/UpgradedClientState RPC method.
@@ -316,13 +316,13 @@ export interface QueryUpgradedClientStateResponseSDKType {
  * Query/UpgradedConsensusState RPC method
  */
 
-export interface QueryUpgradedConsensusStateRequest {}
+export interface QueryUpgradedConsensusStateRequest { }
 /**
  * QueryUpgradedConsensusStateRequest is the request type for the
  * Query/UpgradedConsensusState RPC method
  */
 
-export interface QueryUpgradedConsensusStateRequestSDKType {}
+export interface QueryUpgradedConsensusStateRequestSDKType { }
 /**
  * QueryUpgradedConsensusStateResponse is the response type for the
  * Query/UpgradedConsensusState RPC method.

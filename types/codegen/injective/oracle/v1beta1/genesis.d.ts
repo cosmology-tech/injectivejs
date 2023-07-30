@@ -1,6 +1,6 @@
 import { Params, ParamsSDKType, BandPriceState, BandPriceStateSDKType, PriceFeedState, PriceFeedStateSDKType, CoinbasePriceState, CoinbasePriceStateSDKType, BandOracleRequest, BandOracleRequestSDKType, BandIBCParams, BandIBCParamsSDKType, ChainlinkPriceState, ChainlinkPriceStateSDKType, PriceRecords, PriceRecordsSDKType, ProviderState, ProviderStateSDKType } from "./oracle";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** GenesisState defines the oracle module's genesis state. */
 export interface GenesisState {
     /** params defines all the parameters of related to oracle. */

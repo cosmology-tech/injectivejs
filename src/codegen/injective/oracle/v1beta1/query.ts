@@ -1,13 +1,13 @@
 import { OracleType, OracleTypeSDKType, OracleInfo, OracleInfoSDKType, Params, ParamsSDKType, BandPriceState, BandPriceStateSDKType, PriceFeedState, PriceFeedStateSDKType, CoinbasePriceState, CoinbasePriceStateSDKType, PriceState, PriceStateSDKType, PriceRecords, PriceRecordsSDKType, MetadataStatistics, MetadataStatisticsSDKType, PriceRecord, PriceRecordSDKType, ProviderInfo, ProviderInfoSDKType, ProviderState, ProviderStateSDKType } from "./oracle";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** QueryOracleParamsRequest is the request type for the Query/OracleParams RPC method. */
 
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 /** QueryOracleParamsRequest is the request type for the Query/OracleParams RPC method. */
 
-export interface QueryParamsRequestSDKType {}
+export interface QueryParamsRequestSDKType { }
 /** QueryOracleParamsResponse is the response type for the Query/OracleParams RPC method. */
 
 export interface QueryParamsResponse {
@@ -20,10 +20,10 @@ export interface QueryParamsResponseSDKType {
 }
 /** QueryBandRelayersRequest is the request type for the Query/BandRelayers RPC method. */
 
-export interface QueryBandRelayersRequest {}
+export interface QueryBandRelayersRequest { }
 /** QueryBandRelayersRequest is the request type for the Query/BandRelayers RPC method. */
 
-export interface QueryBandRelayersRequestSDKType {}
+export interface QueryBandRelayersRequestSDKType { }
 /** QueryBandRelayersResponse is the response type for the Query/BandRelayers RPC method. */
 
 export interface QueryBandRelayersResponse {
@@ -36,10 +36,10 @@ export interface QueryBandRelayersResponseSDKType {
 }
 /** QueryBandPriceStatesRequest is the request type for the Query/BandPriceStates RPC method. */
 
-export interface QueryBandPriceStatesRequest {}
+export interface QueryBandPriceStatesRequest { }
 /** QueryBandPriceStatesRequest is the request type for the Query/BandPriceStates RPC method. */
 
-export interface QueryBandPriceStatesRequestSDKType {}
+export interface QueryBandPriceStatesRequestSDKType { }
 /** QueryBandPriceStatesResponse is the response type for the Query/BandPriceStates RPC method. */
 
 export interface QueryBandPriceStatesResponse {
@@ -52,10 +52,10 @@ export interface QueryBandPriceStatesResponseSDKType {
 }
 /** QueryBandIBCPriceStatesRequest is the request type for the Query/BandIBCPriceStates RPC method. */
 
-export interface QueryBandIBCPriceStatesRequest {}
+export interface QueryBandIBCPriceStatesRequest { }
 /** QueryBandIBCPriceStatesRequest is the request type for the Query/BandIBCPriceStates RPC method. */
 
-export interface QueryBandIBCPriceStatesRequestSDKType {}
+export interface QueryBandIBCPriceStatesRequestSDKType { }
 /** QueryBandIBCPriceStatesResponse is the response type for the Query/BandIBCPriceStates RPC method. */
 
 export interface QueryBandIBCPriceStatesResponse {
@@ -68,10 +68,10 @@ export interface QueryBandIBCPriceStatesResponseSDKType {
 }
 /** QueryPriceFeedPriceStatesRequest is the request type for the Query/PriceFeedPriceStates RPC method. */
 
-export interface QueryPriceFeedPriceStatesRequest {}
+export interface QueryPriceFeedPriceStatesRequest { }
 /** QueryPriceFeedPriceStatesRequest is the request type for the Query/PriceFeedPriceStates RPC method. */
 
-export interface QueryPriceFeedPriceStatesRequestSDKType {}
+export interface QueryPriceFeedPriceStatesRequestSDKType { }
 /** QueryPriceFeedPriceStatesResponse is the response type for the Query/PriceFeedPriceStates RPC method. */
 
 export interface QueryPriceFeedPriceStatesResponse {
@@ -84,10 +84,10 @@ export interface QueryPriceFeedPriceStatesResponseSDKType {
 }
 /** QueryCoinbasePriceStatesRequest is the request type for the Query/CoinbasePriceStates RPC method. */
 
-export interface QueryCoinbasePriceStatesRequest {}
+export interface QueryCoinbasePriceStatesRequest { }
 /** QueryCoinbasePriceStatesRequest is the request type for the Query/CoinbasePriceStates RPC method. */
 
-export interface QueryCoinbasePriceStatesRequestSDKType {}
+export interface QueryCoinbasePriceStatesRequestSDKType { }
 /** QueryCoinbasePriceStatesResponse is the response type for the Query/CoinbasePriceStates RPC method. */
 
 export interface QueryCoinbasePriceStatesResponse {
@@ -122,10 +122,10 @@ export interface QueryProviderPriceStateResponseSDKType {
 }
 /** QueryModuleStateRequest is the request type for the Query/OracleModuleState RPC method. */
 
-export interface QueryModuleStateRequest {}
+export interface QueryModuleStateRequest { }
 /** QueryModuleStateRequest is the request type for the Query/OracleModuleState RPC method. */
 
-export interface QueryModuleStateRequestSDKType {}
+export interface QueryModuleStateRequestSDKType { }
 /** QueryModuleStateResponse is the response type for the Query/OracleModuleState RPC method. */
 
 export interface QueryModuleStateResponse {
@@ -204,8 +204,8 @@ export interface QueryOracleVolatilityResponseSDKType {
   history_metadata: MetadataStatisticsSDKType;
   raw_history: PriceRecordSDKType[];
 }
-export interface QueryOracleProvidersInfoRequest {}
-export interface QueryOracleProvidersInfoRequestSDKType {}
+export interface QueryOracleProvidersInfoRequest { }
+export interface QueryOracleProvidersInfoRequestSDKType { }
 export interface QueryOracleProvidersInfoResponse {
   providers: ProviderInfo[];
 }

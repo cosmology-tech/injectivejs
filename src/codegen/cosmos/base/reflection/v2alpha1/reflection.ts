@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** AppDescriptor describes a cosmos-sdk based application */
 
 export interface AppDescriptor {
@@ -272,10 +272,10 @@ export interface MsgDescriptorSDKType {
 }
 /** GetAuthnDescriptorRequest is the request used for the GetAuthnDescriptor RPC */
 
-export interface GetAuthnDescriptorRequest {}
+export interface GetAuthnDescriptorRequest { }
 /** GetAuthnDescriptorRequest is the request used for the GetAuthnDescriptor RPC */
 
-export interface GetAuthnDescriptorRequestSDKType {}
+export interface GetAuthnDescriptorRequestSDKType { }
 /** GetAuthnDescriptorResponse is the response returned by the GetAuthnDescriptor RPC */
 
 export interface GetAuthnDescriptorResponse {
@@ -290,10 +290,10 @@ export interface GetAuthnDescriptorResponseSDKType {
 }
 /** GetChainDescriptorRequest is the request used for the GetChainDescriptor RPC */
 
-export interface GetChainDescriptorRequest {}
+export interface GetChainDescriptorRequest { }
 /** GetChainDescriptorRequest is the request used for the GetChainDescriptor RPC */
 
-export interface GetChainDescriptorRequestSDKType {}
+export interface GetChainDescriptorRequestSDKType { }
 /** GetChainDescriptorResponse is the response returned by the GetChainDescriptor RPC */
 
 export interface GetChainDescriptorResponse {
@@ -308,10 +308,10 @@ export interface GetChainDescriptorResponseSDKType {
 }
 /** GetCodecDescriptorRequest is the request used for the GetCodecDescriptor RPC */
 
-export interface GetCodecDescriptorRequest {}
+export interface GetCodecDescriptorRequest { }
 /** GetCodecDescriptorRequest is the request used for the GetCodecDescriptor RPC */
 
-export interface GetCodecDescriptorRequestSDKType {}
+export interface GetCodecDescriptorRequestSDKType { }
 /** GetCodecDescriptorResponse is the response returned by the GetCodecDescriptor RPC */
 
 export interface GetCodecDescriptorResponse {
@@ -326,10 +326,10 @@ export interface GetCodecDescriptorResponseSDKType {
 }
 /** GetConfigurationDescriptorRequest is the request used for the GetConfigurationDescriptor RPC */
 
-export interface GetConfigurationDescriptorRequest {}
+export interface GetConfigurationDescriptorRequest { }
 /** GetConfigurationDescriptorRequest is the request used for the GetConfigurationDescriptor RPC */
 
-export interface GetConfigurationDescriptorRequestSDKType {}
+export interface GetConfigurationDescriptorRequestSDKType { }
 /** GetConfigurationDescriptorResponse is the response returned by the GetConfigurationDescriptor RPC */
 
 export interface GetConfigurationDescriptorResponse {
@@ -344,10 +344,10 @@ export interface GetConfigurationDescriptorResponseSDKType {
 }
 /** GetQueryServicesDescriptorRequest is the request used for the GetQueryServicesDescriptor RPC */
 
-export interface GetQueryServicesDescriptorRequest {}
+export interface GetQueryServicesDescriptorRequest { }
 /** GetQueryServicesDescriptorRequest is the request used for the GetQueryServicesDescriptor RPC */
 
-export interface GetQueryServicesDescriptorRequestSDKType {}
+export interface GetQueryServicesDescriptorRequestSDKType { }
 /** GetQueryServicesDescriptorResponse is the response returned by the GetQueryServicesDescriptor RPC */
 
 export interface GetQueryServicesDescriptorResponse {
@@ -362,10 +362,10 @@ export interface GetQueryServicesDescriptorResponseSDKType {
 }
 /** GetTxDescriptorRequest is the request used for the GetTxDescriptor RPC */
 
-export interface GetTxDescriptorRequest {}
+export interface GetTxDescriptorRequest { }
 /** GetTxDescriptorRequest is the request used for the GetTxDescriptor RPC */
 
-export interface GetTxDescriptorRequestSDKType {}
+export interface GetTxDescriptorRequestSDKType { }
 /** GetTxDescriptorResponse is the response returned by the GetTxDescriptor RPC */
 
 export interface GetTxDescriptorResponse {

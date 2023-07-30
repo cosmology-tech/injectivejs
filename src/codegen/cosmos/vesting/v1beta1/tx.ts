@@ -1,7 +1,7 @@
 import { Coin, CoinSDKType } from "../../base/v1beta1/coin";
 import { Period, PeriodSDKType } from "./vesting";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /**
  * MsgCreateVestingAccount defines a message that enables creating a vesting
  * account.
@@ -28,10 +28,10 @@ export interface MsgCreateVestingAccountSDKType {
 }
 /** MsgCreateVestingAccountResponse defines the Msg/CreateVestingAccount response type. */
 
-export interface MsgCreateVestingAccountResponse {}
+export interface MsgCreateVestingAccountResponse { }
 /** MsgCreateVestingAccountResponse defines the Msg/CreateVestingAccount response type. */
 
-export interface MsgCreateVestingAccountResponseSDKType {}
+export interface MsgCreateVestingAccountResponseSDKType { }
 /**
  * MsgCreatePermanentLockedAccount defines a message that enables creating a permanent
  * locked account.
@@ -54,10 +54,10 @@ export interface MsgCreatePermanentLockedAccountSDKType {
 }
 /** MsgCreatePermanentLockedAccountResponse defines the Msg/CreatePermanentLockedAccount response type. */
 
-export interface MsgCreatePermanentLockedAccountResponse {}
+export interface MsgCreatePermanentLockedAccountResponse { }
 /** MsgCreatePermanentLockedAccountResponse defines the Msg/CreatePermanentLockedAccount response type. */
 
-export interface MsgCreatePermanentLockedAccountResponseSDKType {}
+export interface MsgCreatePermanentLockedAccountResponseSDKType { }
 /**
  * MsgCreateVestingAccount defines a message that enables creating a vesting
  * account.
@@ -85,13 +85,13 @@ export interface MsgCreatePeriodicVestingAccountSDKType {
  * response type.
  */
 
-export interface MsgCreatePeriodicVestingAccountResponse {}
+export interface MsgCreatePeriodicVestingAccountResponse { }
 /**
  * MsgCreateVestingAccountResponse defines the Msg/CreatePeriodicVestingAccount
  * response type.
  */
 
-export interface MsgCreatePeriodicVestingAccountResponseSDKType {}
+export interface MsgCreatePeriodicVestingAccountResponseSDKType { }
 
 function createBaseMsgCreateVestingAccount(): MsgCreateVestingAccount {
   return {

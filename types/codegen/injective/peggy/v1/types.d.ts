@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** BridgeValidator represents a validator's ETH address and its power */
 export interface BridgeValidator {
     power: Long;

@@ -2,7 +2,7 @@ import { PageRequest, PageRequestSDKType, PageResponse, PageResponseSDKType } fr
 import { Coin, CoinSDKType } from "../../base/v1beta1/coin";
 import { Params, ParamsSDKType, Metadata, MetadataSDKType } from "./bank";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryBalanceRequest is the request type for the Query/Balance RPC method. */
 
 export interface QueryBalanceRequest {
@@ -207,10 +207,10 @@ export interface QuerySupplyOfResponseSDKType {
 }
 /** QueryParamsRequest defines the request type for querying x/bank parameters. */
 
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 /** QueryParamsRequest defines the request type for querying x/bank parameters. */
 
-export interface QueryParamsRequestSDKType {}
+export interface QueryParamsRequestSDKType { }
 /** QueryParamsResponse defines the response type for querying x/bank parameters. */
 
 export interface QueryParamsResponse {

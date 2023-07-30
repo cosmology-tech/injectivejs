@@ -1,7 +1,7 @@
 import { Any, AnySDKType } from "../../../../google/protobuf/any";
 import { BIP44Params, BIP44ParamsSDKType } from "../../hd/v1/hd";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** Record is used for representing a key in the keyring. */
 
 export interface Record {
@@ -74,16 +74,16 @@ export interface Record_LedgerSDKType {
 }
 /** Multi item */
 
-export interface Record_Multi {}
+export interface Record_Multi { }
 /** Multi item */
 
-export interface Record_MultiSDKType {}
+export interface Record_MultiSDKType { }
 /** Offline item */
 
-export interface Record_Offline {}
+export interface Record_Offline { }
 /** Offline item */
 
-export interface Record_OfflineSDKType {}
+export interface Record_OfflineSDKType { }
 
 function createBaseRecord(): Record {
   return {

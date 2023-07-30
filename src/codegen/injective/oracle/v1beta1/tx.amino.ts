@@ -1,5 +1,5 @@
 import { AminoMsg } from "@cosmjs/amino";
-import { Long } from "@osmonauts/helpers";
+import { Long } from "@cosmology/helpers";
 import { MsgRelayProviderPrices, MsgRelayPriceFeedPrice, MsgRelayBandRates, MsgRequestBandIBCRates, MsgRelayCoinbaseMessages } from "./tx";
 export interface AminoMsgRelayProviderPrices extends AminoMsg {
   type: "/injective.oracle.v1beta1.MsgRelayProviderPrices";

@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** base header ak message type, we can cast the bytes into corresponding message response type */
 export interface TxResponseGenericMessage {
     header: string;

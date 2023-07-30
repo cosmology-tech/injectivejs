@@ -1,12 +1,12 @@
 import { Config, ConfigSDKType } from "./config";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryConfigRequest is the Query/Config request type. */
 
-export interface QueryConfigRequest {}
+export interface QueryConfigRequest { }
 /** QueryConfigRequest is the Query/Config request type. */
 
-export interface QueryConfigRequestSDKType {}
+export interface QueryConfigRequestSDKType { }
 /** QueryConfigRequest is the Query/Config response type. */
 
 export interface QueryConfigResponse {

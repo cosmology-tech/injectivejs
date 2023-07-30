@@ -2,9 +2,9 @@ import { Params, ParamsSDKType, FeedConfigInfo, FeedConfigInfoSDKType, FeedConfi
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
-export interface QueryParamsRequest {}
-export interface QueryParamsRequestSDKType {}
+import { DeepPartial, Long } from "@cosmology/helpers";
+export interface QueryParamsRequest { }
+export interface QueryParamsRequestSDKType { }
 export interface QueryParamsResponse {
   params: Params;
 }
@@ -81,8 +81,8 @@ export interface QueryOwedAmountResponse {
 export interface QueryOwedAmountResponseSDKType {
   amount: CoinSDKType;
 }
-export interface QueryModuleStateRequest {}
-export interface QueryModuleStateRequestSDKType {}
+export interface QueryModuleStateRequest { }
+export interface QueryModuleStateRequestSDKType { }
 export interface QueryModuleStateResponse {
   state: GenesisState;
 }

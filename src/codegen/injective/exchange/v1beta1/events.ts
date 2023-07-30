@@ -1,7 +1,7 @@
 import { ExecutionType, ExecutionTypeSDKType, TradeLog, TradeLogSDKType, DerivativeTradeLog, DerivativeTradeLogSDKType, SubaccountPosition, SubaccountPositionSDKType, BinaryOptionsMarket, BinaryOptionsMarketSDKType, SpotLimitOrder, SpotLimitOrderSDKType, DerivativeLimitOrder, DerivativeLimitOrderSDKType, SpotMarket, SpotMarketSDKType, DerivativeMarket, DerivativeMarketSDKType, PerpetualMarketInfo, PerpetualMarketInfoSDKType, PerpetualMarketFunding, PerpetualMarketFundingSDKType, ExpiryFuturesMarketInfo, ExpiryFuturesMarketInfoSDKType, DepositUpdate, DepositUpdateSDKType, DerivativeMarketOrder, DerivativeMarketOrderSDKType, FeeDiscountSchedule, FeeDiscountScheduleSDKType, TradingRewardCampaignInfo, TradingRewardCampaignInfoSDKType, CampaignRewardPool, CampaignRewardPoolSDKType, AccountRewards, AccountRewardsSDKType, DerivativeOrder, DerivativeOrderSDKType } from "./exchange";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 export interface EventBatchSpotExecution {
   marketId: string;
   isBuy: boolean;

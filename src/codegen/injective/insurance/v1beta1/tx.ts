@@ -1,7 +1,7 @@
 import { OracleType, OracleTypeSDKType } from "../../oracle/v1beta1/oracle";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** MsgCreateInsuranceFund a message to create an insurance fund for a derivative market. */
 
 export interface MsgCreateInsuranceFund {
@@ -56,8 +56,8 @@ export interface MsgCreateInsuranceFundSDKType {
 
   initial_deposit: CoinSDKType;
 }
-export interface MsgCreateInsuranceFundResponse {}
-export interface MsgCreateInsuranceFundResponseSDKType {}
+export interface MsgCreateInsuranceFundResponse { }
+export interface MsgCreateInsuranceFundResponseSDKType { }
 /** MsgUnderwrite defines a message for depositing coins to underwrite an insurance fund */
 
 export interface MsgUnderwrite {
@@ -82,8 +82,8 @@ export interface MsgUnderwriteSDKType {
 
   deposit: CoinSDKType;
 }
-export interface MsgUnderwriteResponse {}
-export interface MsgUnderwriteResponseSDKType {}
+export interface MsgUnderwriteResponse { }
+export interface MsgUnderwriteResponseSDKType { }
 /** MsgRequestRedemption defines a message for requesting a redemption of the sender's insurance fund tokens */
 
 export interface MsgRequestRedemption {
@@ -108,8 +108,8 @@ export interface MsgRequestRedemptionSDKType {
 
   amount: CoinSDKType;
 }
-export interface MsgRequestRedemptionResponse {}
-export interface MsgRequestRedemptionResponseSDKType {}
+export interface MsgRequestRedemptionResponse { }
+export interface MsgRequestRedemptionResponseSDKType { }
 
 function createBaseMsgCreateInsuranceFund(): MsgCreateInsuranceFund {
   return {

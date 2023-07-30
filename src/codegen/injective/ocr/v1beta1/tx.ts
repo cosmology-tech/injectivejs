@@ -1,7 +1,7 @@
 import { FeedConfig, FeedConfigSDKType, Report, ReportSDKType } from "./ocr";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 export interface MsgCreateFeed {
   sender: string;
   config: FeedConfig;
@@ -10,8 +10,8 @@ export interface MsgCreateFeedSDKType {
   sender: string;
   config: FeedConfigSDKType;
 }
-export interface MsgCreateFeedResponse {}
-export interface MsgCreateFeedResponseSDKType {}
+export interface MsgCreateFeedResponse { }
+export interface MsgCreateFeedResponseSDKType { }
 export interface MsgUpdateFeed {
   sender: string;
   /** feed_id is an unique ID for the target of this config */
@@ -66,8 +66,8 @@ export interface MsgUpdateFeedSDKType {
 
   billing_admin: string;
 }
-export interface MsgUpdateFeedResponse {}
-export interface MsgUpdateFeedResponseSDKType {}
+export interface MsgUpdateFeedResponse { }
+export interface MsgUpdateFeedResponseSDKType { }
 export interface MsgTransmit {
   /** Address of the transmitter */
   transmitter: string;
@@ -90,8 +90,8 @@ export interface MsgTransmitSDKType {
   report: ReportSDKType;
   signatures: Uint8Array[];
 }
-export interface MsgTransmitResponse {}
-export interface MsgTransmitResponseSDKType {}
+export interface MsgTransmitResponse { }
+export interface MsgTransmitResponseSDKType { }
 export interface MsgFundFeedRewardPool {
   sender: string;
   feedId: string;
@@ -102,8 +102,8 @@ export interface MsgFundFeedRewardPoolSDKType {
   feed_id: string;
   amount: CoinSDKType;
 }
-export interface MsgFundFeedRewardPoolResponse {}
-export interface MsgFundFeedRewardPoolResponseSDKType {}
+export interface MsgFundFeedRewardPoolResponse { }
+export interface MsgFundFeedRewardPoolResponseSDKType { }
 export interface MsgWithdrawFeedRewardPool {
   sender: string;
   feedId: string;
@@ -114,8 +114,8 @@ export interface MsgWithdrawFeedRewardPoolSDKType {
   feed_id: string;
   amount: CoinSDKType;
 }
-export interface MsgWithdrawFeedRewardPoolResponse {}
-export interface MsgWithdrawFeedRewardPoolResponseSDKType {}
+export interface MsgWithdrawFeedRewardPoolResponse { }
+export interface MsgWithdrawFeedRewardPoolResponseSDKType { }
 export interface MsgSetPayees {
   sender: string;
   feedId: string;
@@ -136,8 +136,8 @@ export interface MsgSetPayeesSDKType {
 
   payees: string[];
 }
-export interface MsgSetPayeesResponse {}
-export interface MsgSetPayeesResponseSDKType {}
+export interface MsgSetPayeesResponse { }
+export interface MsgSetPayeesResponseSDKType { }
 export interface MsgTransferPayeeship {
   /** transmitter address of oracle whose payee is changing */
   sender: string;
@@ -156,8 +156,8 @@ export interface MsgTransferPayeeshipSDKType {
 
   proposed: string;
 }
-export interface MsgTransferPayeeshipResponse {}
-export interface MsgTransferPayeeshipResponseSDKType {}
+export interface MsgTransferPayeeshipResponse { }
+export interface MsgTransferPayeeshipResponseSDKType { }
 export interface MsgAcceptPayeeship {
   /** new payee address */
   payee: string;
@@ -174,8 +174,8 @@ export interface MsgAcceptPayeeshipSDKType {
   transmitter: string;
   feed_id: string;
 }
-export interface MsgAcceptPayeeshipResponse {}
-export interface MsgAcceptPayeeshipResponseSDKType {}
+export interface MsgAcceptPayeeshipResponse { }
+export interface MsgAcceptPayeeshipResponseSDKType { }
 
 function createBaseMsgCreateFeed(): MsgCreateFeed {
   return {

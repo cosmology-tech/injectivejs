@@ -1,7 +1,7 @@
 import { Coin, CoinSDKType } from "../../../../cosmos/base/v1beta1/coin";
 import { Height, HeightSDKType } from "../../../core/client/v1/client";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /**
  * MsgTransfer defines a msg to transfer fungible tokens (i.e Coins) between
  * ICS20 enabled chains. See ICS Spec here:
@@ -72,10 +72,10 @@ export interface MsgTransferSDKType {
 }
 /** MsgTransferResponse defines the Msg/Transfer response type. */
 
-export interface MsgTransferResponse {}
+export interface MsgTransferResponse { }
 /** MsgTransferResponse defines the Msg/Transfer response type. */
 
-export interface MsgTransferResponseSDKType {}
+export interface MsgTransferResponseSDKType { }
 
 function createBaseMsgTransfer(): MsgTransfer {
   return {

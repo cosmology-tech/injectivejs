@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 export interface ExtensionOptionsWeb3Tx {
   /**
    * typedDataChainID used only in EIP712 Domain and should match

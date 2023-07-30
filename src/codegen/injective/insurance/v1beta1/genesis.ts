@@ -1,6 +1,6 @@
 import { Params, ParamsSDKType, InsuranceFund, InsuranceFundSDKType, RedemptionSchedule, RedemptionScheduleSDKType } from "./insurance";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** GenesisState defines the insurance module's genesis state. */
 
 export interface GenesisState {

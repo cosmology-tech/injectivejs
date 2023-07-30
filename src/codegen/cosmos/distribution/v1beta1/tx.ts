@@ -1,6 +1,6 @@
 import { Coin, CoinSDKType } from "../../base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * MsgSetWithdrawAddress sets the withdraw address for
  * a delegator (or validator self-delegation).
@@ -21,10 +21,10 @@ export interface MsgSetWithdrawAddressSDKType {
 }
 /** MsgSetWithdrawAddressResponse defines the Msg/SetWithdrawAddress response type. */
 
-export interface MsgSetWithdrawAddressResponse {}
+export interface MsgSetWithdrawAddressResponse { }
 /** MsgSetWithdrawAddressResponse defines the Msg/SetWithdrawAddress response type. */
 
-export interface MsgSetWithdrawAddressResponseSDKType {}
+export interface MsgSetWithdrawAddressResponseSDKType { }
 /**
  * MsgWithdrawDelegatorReward represents delegation withdrawal to a delegator
  * from a single validator.
@@ -99,10 +99,10 @@ export interface MsgFundCommunityPoolSDKType {
 }
 /** MsgFundCommunityPoolResponse defines the Msg/FundCommunityPool response type. */
 
-export interface MsgFundCommunityPoolResponse {}
+export interface MsgFundCommunityPoolResponse { }
 /** MsgFundCommunityPoolResponse defines the Msg/FundCommunityPool response type. */
 
-export interface MsgFundCommunityPoolResponseSDKType {}
+export interface MsgFundCommunityPoolResponseSDKType { }
 
 function createBaseMsgSetWithdrawAddress(): MsgSetWithdrawAddress {
   return {

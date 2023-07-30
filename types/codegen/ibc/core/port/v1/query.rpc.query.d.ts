@@ -1,4 +1,4 @@
-import { Rpc } from "@osmonauts/helpers";
+import { Rpc } from "@cosmology/helpers";
 import { QueryClient } from "@cosmjs/stargate";
 import { QueryAppVersionRequest, QueryAppVersionResponse } from "./query";
 /** Query defines the RPC service */

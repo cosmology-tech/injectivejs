@@ -1,7 +1,7 @@
 import { Member, MemberSDKType, VoteOption, VoteOptionSDKType } from "./types";
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** Exec defines modes of execution of a proposal on creation or on new vote. */
 
 export enum Exec {
@@ -134,10 +134,10 @@ export interface MsgUpdateGroupMembersSDKType {
 }
 /** MsgUpdateGroupMembersResponse is the Msg/UpdateGroupMembers response type. */
 
-export interface MsgUpdateGroupMembersResponse {}
+export interface MsgUpdateGroupMembersResponse { }
 /** MsgUpdateGroupMembersResponse is the Msg/UpdateGroupMembers response type. */
 
-export interface MsgUpdateGroupMembersResponseSDKType {}
+export interface MsgUpdateGroupMembersResponseSDKType { }
 /** MsgUpdateGroupAdmin is the Msg/UpdateGroupAdmin request type. */
 
 export interface MsgUpdateGroupAdmin {
@@ -164,10 +164,10 @@ export interface MsgUpdateGroupAdminSDKType {
 }
 /** MsgUpdateGroupAdminResponse is the Msg/UpdateGroupAdmin response type. */
 
-export interface MsgUpdateGroupAdminResponse {}
+export interface MsgUpdateGroupAdminResponse { }
 /** MsgUpdateGroupAdminResponse is the Msg/UpdateGroupAdmin response type. */
 
-export interface MsgUpdateGroupAdminResponseSDKType {}
+export interface MsgUpdateGroupAdminResponseSDKType { }
 /** MsgUpdateGroupMetadata is the Msg/UpdateGroupMetadata request type. */
 
 export interface MsgUpdateGroupMetadata {
@@ -194,10 +194,10 @@ export interface MsgUpdateGroupMetadataSDKType {
 }
 /** MsgUpdateGroupMetadataResponse is the Msg/UpdateGroupMetadata response type. */
 
-export interface MsgUpdateGroupMetadataResponse {}
+export interface MsgUpdateGroupMetadataResponse { }
 /** MsgUpdateGroupMetadataResponse is the Msg/UpdateGroupMetadata response type. */
 
-export interface MsgUpdateGroupMetadataResponseSDKType {}
+export interface MsgUpdateGroupMetadataResponseSDKType { }
 /** MsgCreateGroupPolicy is the Msg/CreateGroupPolicy request type. */
 
 export interface MsgCreateGroupPolicy {
@@ -326,10 +326,10 @@ export interface MsgCreateGroupWithPolicyResponseSDKType {
 }
 /** MsgUpdateGroupPolicyAdminResponse is the Msg/UpdateGroupPolicyAdmin response type. */
 
-export interface MsgUpdateGroupPolicyAdminResponse {}
+export interface MsgUpdateGroupPolicyAdminResponse { }
 /** MsgUpdateGroupPolicyAdminResponse is the Msg/UpdateGroupPolicyAdmin response type. */
 
-export interface MsgUpdateGroupPolicyAdminResponseSDKType {}
+export interface MsgUpdateGroupPolicyAdminResponseSDKType { }
 /** MsgUpdateGroupPolicyDecisionPolicy is the Msg/UpdateGroupPolicyDecisionPolicy request type. */
 
 export interface MsgUpdateGroupPolicyDecisionPolicy {
@@ -356,10 +356,10 @@ export interface MsgUpdateGroupPolicyDecisionPolicySDKType {
 }
 /** MsgUpdateGroupPolicyDecisionPolicyResponse is the Msg/UpdateGroupPolicyDecisionPolicy response type. */
 
-export interface MsgUpdateGroupPolicyDecisionPolicyResponse {}
+export interface MsgUpdateGroupPolicyDecisionPolicyResponse { }
 /** MsgUpdateGroupPolicyDecisionPolicyResponse is the Msg/UpdateGroupPolicyDecisionPolicy response type. */
 
-export interface MsgUpdateGroupPolicyDecisionPolicyResponseSDKType {}
+export interface MsgUpdateGroupPolicyDecisionPolicyResponseSDKType { }
 /** MsgUpdateGroupPolicyMetadata is the Msg/UpdateGroupPolicyMetadata request type. */
 
 export interface MsgUpdateGroupPolicyMetadata {
@@ -386,10 +386,10 @@ export interface MsgUpdateGroupPolicyMetadataSDKType {
 }
 /** MsgUpdateGroupPolicyMetadataResponse is the Msg/UpdateGroupPolicyMetadata response type. */
 
-export interface MsgUpdateGroupPolicyMetadataResponse {}
+export interface MsgUpdateGroupPolicyMetadataResponse { }
 /** MsgUpdateGroupPolicyMetadataResponse is the Msg/UpdateGroupPolicyMetadata response type. */
 
-export interface MsgUpdateGroupPolicyMetadataResponseSDKType {}
+export interface MsgUpdateGroupPolicyMetadataResponseSDKType { }
 /** MsgSubmitProposal is the Msg/SubmitProposal request type. */
 
 export interface MsgSubmitProposal {
@@ -472,10 +472,10 @@ export interface MsgWithdrawProposalSDKType {
 }
 /** MsgWithdrawProposalResponse is the Msg/WithdrawProposal response type. */
 
-export interface MsgWithdrawProposalResponse {}
+export interface MsgWithdrawProposalResponse { }
 /** MsgWithdrawProposalResponse is the Msg/WithdrawProposal response type. */
 
-export interface MsgWithdrawProposalResponseSDKType {}
+export interface MsgWithdrawProposalResponseSDKType { }
 /** MsgVote is the Msg/Vote request type. */
 
 export interface MsgVote {
@@ -520,10 +520,10 @@ export interface MsgVoteSDKType {
 }
 /** MsgVoteResponse is the Msg/Vote response type. */
 
-export interface MsgVoteResponse {}
+export interface MsgVoteResponse { }
 /** MsgVoteResponse is the Msg/Vote response type. */
 
-export interface MsgVoteResponseSDKType {}
+export interface MsgVoteResponseSDKType { }
 /** MsgExec is the Msg/Exec request type. */
 
 export interface MsgExec {
@@ -544,10 +544,10 @@ export interface MsgExecSDKType {
 }
 /** MsgExecResponse is the Msg/Exec request type. */
 
-export interface MsgExecResponse {}
+export interface MsgExecResponse { }
 /** MsgExecResponse is the Msg/Exec request type. */
 
-export interface MsgExecResponseSDKType {}
+export interface MsgExecResponseSDKType { }
 /** MsgLeaveGroup is the Msg/LeaveGroup request type. */
 
 export interface MsgLeaveGroup {
@@ -568,10 +568,10 @@ export interface MsgLeaveGroupSDKType {
 }
 /** MsgLeaveGroupResponse is the Msg/LeaveGroup response type. */
 
-export interface MsgLeaveGroupResponse {}
+export interface MsgLeaveGroupResponse { }
 /** MsgLeaveGroupResponse is the Msg/LeaveGroup response type. */
 
-export interface MsgLeaveGroupResponseSDKType {}
+export interface MsgLeaveGroupResponseSDKType { }
 
 function createBaseMsgCreateGroup(): MsgCreateGroup {
   return {

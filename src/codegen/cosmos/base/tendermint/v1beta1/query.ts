@@ -4,7 +4,7 @@ import { BlockID, BlockIDSDKType } from "../../../../tendermint/types/types";
 import { Block, BlockSDKType } from "../../../../tendermint/types/block";
 import { NodeInfo, NodeInfoSDKType } from "../../../../tendermint/p2p/types";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** GetValidatorSetByHeightRequest is the request type for the Query/GetValidatorSetByHeight RPC method. */
 
 export interface GetValidatorSetByHeightRequest {
@@ -109,10 +109,10 @@ export interface GetBlockByHeightResponseSDKType {
 }
 /** GetLatestBlockRequest is the request type for the Query/GetLatestBlock RPC method. */
 
-export interface GetLatestBlockRequest {}
+export interface GetLatestBlockRequest { }
 /** GetLatestBlockRequest is the request type for the Query/GetLatestBlock RPC method. */
 
-export interface GetLatestBlockRequestSDKType {}
+export interface GetLatestBlockRequestSDKType { }
 /** GetLatestBlockResponse is the response type for the Query/GetLatestBlock RPC method. */
 
 export interface GetLatestBlockResponse {
@@ -127,10 +127,10 @@ export interface GetLatestBlockResponseSDKType {
 }
 /** GetSyncingRequest is the request type for the Query/GetSyncing RPC method. */
 
-export interface GetSyncingRequest {}
+export interface GetSyncingRequest { }
 /** GetSyncingRequest is the request type for the Query/GetSyncing RPC method. */
 
-export interface GetSyncingRequestSDKType {}
+export interface GetSyncingRequestSDKType { }
 /** GetSyncingResponse is the response type for the Query/GetSyncing RPC method. */
 
 export interface GetSyncingResponse {
@@ -143,10 +143,10 @@ export interface GetSyncingResponseSDKType {
 }
 /** GetNodeInfoRequest is the request type for the Query/GetNodeInfo RPC method. */
 
-export interface GetNodeInfoRequest {}
+export interface GetNodeInfoRequest { }
 /** GetNodeInfoRequest is the request type for the Query/GetNodeInfo RPC method. */
 
-export interface GetNodeInfoRequestSDKType {}
+export interface GetNodeInfoRequestSDKType { }
 /** GetNodeInfoResponse is the response type for the Query/GetNodeInfo RPC method. */
 
 export interface GetNodeInfoResponse {

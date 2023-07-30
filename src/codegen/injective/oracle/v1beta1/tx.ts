@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** MsgRelayProviderPrice defines a SDK message for setting a price through the provider oracle. */
 
 export interface MsgRelayProviderPrices {
@@ -16,8 +16,8 @@ export interface MsgRelayProviderPricesSDKType {
   symbols: string[];
   prices: string[];
 }
-export interface MsgRelayProviderPricesResponse {}
-export interface MsgRelayProviderPricesResponseSDKType {}
+export interface MsgRelayProviderPricesResponse { }
+export interface MsgRelayProviderPricesResponseSDKType { }
 /** MsgRelayPriceFeedPrice defines a SDK message for setting a price through the pricefeed oracle. */
 
 export interface MsgRelayPriceFeedPrice {
@@ -38,8 +38,8 @@ export interface MsgRelayPriceFeedPriceSDKType {
 
   price: string[];
 }
-export interface MsgRelayPriceFeedPriceResponse {}
-export interface MsgRelayPriceFeedPriceResponseSDKType {}
+export interface MsgRelayPriceFeedPriceResponse { }
+export interface MsgRelayPriceFeedPriceResponseSDKType { }
 export interface MsgRelayBandRates {
   relayer: string;
   symbols: string[];
@@ -54,8 +54,8 @@ export interface MsgRelayBandRatesSDKType {
   resolve_times: Long[];
   requestIDs: Long[];
 }
-export interface MsgRelayBandRatesResponse {}
-export interface MsgRelayBandRatesResponseSDKType {}
+export interface MsgRelayBandRatesResponse { }
+export interface MsgRelayBandRatesResponseSDKType { }
 /** MsgRelayCoinbaseMessages defines a SDK message for relaying price messages from Coinbase API. */
 
 export interface MsgRelayCoinbaseMessages {
@@ -70,8 +70,8 @@ export interface MsgRelayCoinbaseMessagesSDKType {
   messages: Uint8Array[];
   signatures: Uint8Array[];
 }
-export interface MsgRelayCoinbaseMessagesResponse {}
-export interface MsgRelayCoinbaseMessagesResponseSDKType {}
+export interface MsgRelayCoinbaseMessagesResponse { }
+export interface MsgRelayCoinbaseMessagesResponseSDKType { }
 /** MsgRequestBandIBCRates defines a SDK message for requesting data from BandChain using IBC. */
 
 export interface MsgRequestBandIBCRates {
@@ -86,10 +86,10 @@ export interface MsgRequestBandIBCRatesSDKType {
 }
 /** MsgRequestDataResponse defines the Msg/RequestBandIBCRates response type. */
 
-export interface MsgRequestBandIBCRatesResponse {}
+export interface MsgRequestBandIBCRatesResponse { }
 /** MsgRequestDataResponse defines the Msg/RequestBandIBCRates response type. */
 
-export interface MsgRequestBandIBCRatesResponseSDKType {}
+export interface MsgRequestBandIBCRatesResponseSDKType { }
 
 function createBaseMsgRelayProviderPrices(): MsgRelayProviderPrices {
   return {

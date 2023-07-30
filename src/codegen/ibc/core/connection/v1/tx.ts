@@ -2,7 +2,7 @@ import { Counterparty, CounterpartySDKType, Version, VersionSDKType } from "./co
 import { Any, AnySDKType } from "../../../../google/protobuf/any";
 import { Height, HeightSDKType } from "../../client/v1/client";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /**
  * MsgConnectionOpenInit defines the msg sent by an account on Chain A to
  * initialize a connection with Chain B.
@@ -32,13 +32,13 @@ export interface MsgConnectionOpenInitSDKType {
  * type.
  */
 
-export interface MsgConnectionOpenInitResponse {}
+export interface MsgConnectionOpenInitResponse { }
 /**
  * MsgConnectionOpenInitResponse defines the Msg/ConnectionOpenInit response
  * type.
  */
 
-export interface MsgConnectionOpenInitResponseSDKType {}
+export interface MsgConnectionOpenInitResponseSDKType { }
 /**
  * MsgConnectionOpenTry defines a msg sent by a Relayer to try to open a
  * connection on Chain B.
@@ -107,10 +107,10 @@ export interface MsgConnectionOpenTrySDKType {
 }
 /** MsgConnectionOpenTryResponse defines the Msg/ConnectionOpenTry response type. */
 
-export interface MsgConnectionOpenTryResponse {}
+export interface MsgConnectionOpenTryResponse { }
 /** MsgConnectionOpenTryResponse defines the Msg/ConnectionOpenTry response type. */
 
-export interface MsgConnectionOpenTryResponseSDKType {}
+export interface MsgConnectionOpenTryResponseSDKType { }
 /**
  * MsgConnectionOpenAck defines a msg sent by a Relayer to Chain A to
  * acknowledge the change of connection state to TRYOPEN on Chain B.
@@ -165,10 +165,10 @@ export interface MsgConnectionOpenAckSDKType {
 }
 /** MsgConnectionOpenAckResponse defines the Msg/ConnectionOpenAck response type. */
 
-export interface MsgConnectionOpenAckResponse {}
+export interface MsgConnectionOpenAckResponse { }
 /** MsgConnectionOpenAckResponse defines the Msg/ConnectionOpenAck response type. */
 
-export interface MsgConnectionOpenAckResponseSDKType {}
+export interface MsgConnectionOpenAckResponseSDKType { }
 /**
  * MsgConnectionOpenConfirm defines a msg sent by a Relayer to Chain B to
  * acknowledge the change of connection state to OPEN on Chain A.
@@ -200,13 +200,13 @@ export interface MsgConnectionOpenConfirmSDKType {
  * response type.
  */
 
-export interface MsgConnectionOpenConfirmResponse {}
+export interface MsgConnectionOpenConfirmResponse { }
 /**
  * MsgConnectionOpenConfirmResponse defines the Msg/ConnectionOpenConfirm
  * response type.
  */
 
-export interface MsgConnectionOpenConfirmResponseSDKType {}
+export interface MsgConnectionOpenConfirmResponseSDKType { }
 
 function createBaseMsgConnectionOpenInit(): MsgConnectionOpenInit {
   return {

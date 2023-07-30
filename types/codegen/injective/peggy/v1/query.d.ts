@@ -4,7 +4,7 @@ import { MsgValsetConfirm, MsgValsetConfirmSDKType, MsgConfirmBatch, MsgConfirmB
 import { BatchFees, BatchFeesSDKType } from "./pool";
 import { OutgoingTxBatch, OutgoingTxBatchSDKType, OutgoingTransferTx, OutgoingTransferTxSDKType } from "./batch";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 export interface QueryParamsRequest {
 }
 export interface QueryParamsRequestSDKType {

@@ -3,7 +3,7 @@ import { OracleType, OracleTypeSDKType } from "../../oracle/v1beta1/oracle";
 import { Timestamp } from "../../../google/protobuf/timestamp";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long, toTimestamp, fromTimestamp } from "@osmonauts/helpers";
+import { DeepPartial, Long, toTimestamp, fromTimestamp } from "@cosmology/helpers";
 export interface Params {
   /**
    * default_redemption_notice_period_duration defines the default minimum notice period duration that must pass after an underwriter sends

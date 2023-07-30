@@ -1,6 +1,6 @@
 import { Plan, PlanSDKType } from "./upgrade";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * MsgSoftwareUpgrade is the Msg/SoftwareUpgrade request type.
  * 
@@ -33,14 +33,14 @@ export interface MsgSoftwareUpgradeSDKType {
  * Since: cosmos-sdk 0.46
  */
 
-export interface MsgSoftwareUpgradeResponse {}
+export interface MsgSoftwareUpgradeResponse { }
 /**
  * MsgSoftwareUpgradeResponse is the Msg/SoftwareUpgrade response type.
  * 
  * Since: cosmos-sdk 0.46
  */
 
-export interface MsgSoftwareUpgradeResponseSDKType {}
+export interface MsgSoftwareUpgradeResponseSDKType { }
 /**
  * MsgCancelUpgrade is the Msg/CancelUpgrade request type.
  * 
@@ -67,14 +67,14 @@ export interface MsgCancelUpgradeSDKType {
  * Since: cosmos-sdk 0.46
  */
 
-export interface MsgCancelUpgradeResponse {}
+export interface MsgCancelUpgradeResponse { }
 /**
  * MsgCancelUpgradeResponse is the Msg/CancelUpgrade response type.
  * 
  * Since: cosmos-sdk 0.46
  */
 
-export interface MsgCancelUpgradeResponseSDKType {}
+export interface MsgCancelUpgradeResponseSDKType { }
 
 function createBaseMsgSoftwareUpgrade(): MsgSoftwareUpgrade {
   return {

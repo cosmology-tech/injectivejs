@@ -1,7 +1,7 @@
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { Timestamp } from "../../../google/protobuf/timestamp";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial, toTimestamp, fromTimestamp } from "@osmonauts/helpers";
+import { Long, DeepPartial, toTimestamp, fromTimestamp } from "@cosmology/helpers";
 export interface Params {
   /** Native denom for LINK coin in the bank keeper */
   linkDenom: string;

@@ -931,7 +931,7 @@ export declare namespace cosmwasm {
     }
     const ClientFactory: {
         createRPCMsgClient: ({ rpc }: {
-            rpc: import("@osmonauts/helpers").Rpc;
+            rpc: import("@cosmology/helpers").Rpc;
         }) => Promise<{
             cosmos: {
                 authz: {

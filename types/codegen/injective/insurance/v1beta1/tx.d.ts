@@ -1,7 +1,7 @@
 import { OracleType, OracleTypeSDKType } from "../../oracle/v1beta1/oracle";
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** MsgCreateInsuranceFund a message to create an insurance fund for a derivative market. */
 export interface MsgCreateInsuranceFund {
     /** Creator of the insurance fund. */

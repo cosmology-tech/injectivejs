@@ -2,7 +2,7 @@ import { Params, ParamsSDKType, InsuranceFund, InsuranceFundSDKType } from "./in
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { GenesisState, GenesisStateSDKType } from "./genesis";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryInsuranceParamsRequest is the request type for the Query/InsuranceParams RPC method. */
 export interface QueryInsuranceParamsRequest {
 }

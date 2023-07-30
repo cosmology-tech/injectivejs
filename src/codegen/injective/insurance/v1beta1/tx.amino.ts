@@ -1,6 +1,6 @@
 import { oracleTypeFromJSON } from "../../oracle/v1beta1/oracle";
 import { AminoMsg } from "@cosmjs/amino";
-import { Long } from "@osmonauts/helpers";
+import { Long } from "@cosmology/helpers";
 import { MsgCreateInsuranceFund, MsgUnderwrite, MsgRequestRedemption } from "./tx";
 export interface AminoMsgCreateInsuranceFund extends AminoMsg {
   type: "insurance/MsgCreateInsuranceFund";

@@ -3,7 +3,7 @@ import { OracleType, OracleTypeSDKType } from "../../oracle/v1beta1/oracle";
 import { SpotOrder, SpotOrderSDKType, DerivativeOrder, DerivativeOrderSDKType, MarketStatus, MarketStatusSDKType, TradingRewardCampaignInfo, TradingRewardCampaignInfoSDKType, CampaignRewardPool, CampaignRewardPoolSDKType, FeeDiscountSchedule, FeeDiscountScheduleSDKType } from "./exchange";
 import { CommunityPoolSpendProposal, CommunityPoolSpendProposalSDKType } from "../../../cosmos/distribution/v1beta1/distribution";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 export enum ExchangeType {
   EXCHANGE_UNSPECIFIED = 0,
   SPOT = 1,
@@ -77,10 +77,10 @@ export interface MsgDepositSDKType {
 }
 /** MsgDepositResponse defines the Msg/Deposit response type. */
 
-export interface MsgDepositResponse {}
+export interface MsgDepositResponse { }
 /** MsgDepositResponse defines the Msg/Deposit response type. */
 
-export interface MsgDepositResponseSDKType {}
+export interface MsgDepositResponseSDKType { }
 /** MsgWithdraw defines a SDK message for withdrawing coins from a subaccount's deposits to the user's bank balance */
 
 export interface MsgWithdraw {
@@ -101,10 +101,10 @@ export interface MsgWithdrawSDKType {
 }
 /** MsgWithdraw defines the Msg/Withdraw response type. */
 
-export interface MsgWithdrawResponse {}
+export interface MsgWithdrawResponse { }
 /** MsgWithdraw defines the Msg/Withdraw response type. */
 
-export interface MsgWithdrawResponseSDKType {}
+export interface MsgWithdrawResponseSDKType { }
 /** MsgCreateSpotLimitOrder defines a SDK message for creating a new spot limit order. */
 
 export interface MsgCreateSpotLimitOrder {
@@ -191,10 +191,10 @@ export interface MsgInstantSpotMarketLaunchSDKType {
 }
 /** MsgInstantSpotMarketLaunchResponse defines the Msg/InstantSpotMarketLaunch response type. */
 
-export interface MsgInstantSpotMarketLaunchResponse {}
+export interface MsgInstantSpotMarketLaunchResponse { }
 /** MsgInstantSpotMarketLaunchResponse defines the Msg/InstantSpotMarketLaunch response type. */
 
-export interface MsgInstantSpotMarketLaunchResponseSDKType {}
+export interface MsgInstantSpotMarketLaunchResponseSDKType { }
 /** MsgInstantPerpetualMarketLaunch defines a SDK message for creating a new perpetual futures market by paying listing fee without governance */
 
 export interface MsgInstantPerpetualMarketLaunch {
@@ -279,10 +279,10 @@ export interface MsgInstantPerpetualMarketLaunchSDKType {
 }
 /** MsgInstantPerpetualMarketLaunchResponse defines the Msg/InstantPerpetualMarketLaunchResponse response type. */
 
-export interface MsgInstantPerpetualMarketLaunchResponse {}
+export interface MsgInstantPerpetualMarketLaunchResponse { }
 /** MsgInstantPerpetualMarketLaunchResponse defines the Msg/InstantPerpetualMarketLaunchResponse response type. */
 
-export interface MsgInstantPerpetualMarketLaunchResponseSDKType {}
+export interface MsgInstantPerpetualMarketLaunchResponseSDKType { }
 /** MsgInstantBinaryOptionsMarketLaunch defines a SDK message for creating a new perpetual futures market by paying listing fee without governance */
 
 export interface MsgInstantBinaryOptionsMarketLaunch {
@@ -373,10 +373,10 @@ export interface MsgInstantBinaryOptionsMarketLaunchSDKType {
 }
 /** MsgInstantBinaryOptionsMarketLaunchResponse defines the Msg/InstantBinaryOptionsMarketLaunchResponse response type. */
 
-export interface MsgInstantBinaryOptionsMarketLaunchResponse {}
+export interface MsgInstantBinaryOptionsMarketLaunchResponse { }
 /** MsgInstantBinaryOptionsMarketLaunchResponse defines the Msg/InstantBinaryOptionsMarketLaunchResponse response type. */
 
-export interface MsgInstantBinaryOptionsMarketLaunchResponseSDKType {}
+export interface MsgInstantBinaryOptionsMarketLaunchResponseSDKType { }
 /** MsgInstantExpiryFuturesMarketLaunch defines a SDK message for creating a new expiry futures market by paying listing fee without governance */
 
 export interface MsgInstantExpiryFuturesMarketLaunch {
@@ -467,10 +467,10 @@ export interface MsgInstantExpiryFuturesMarketLaunchSDKType {
 }
 /** MsgInstantExpiryFuturesMarketLaunchResponse defines the Msg/InstantExpiryFuturesMarketLaunch response type. */
 
-export interface MsgInstantExpiryFuturesMarketLaunchResponse {}
+export interface MsgInstantExpiryFuturesMarketLaunchResponse { }
 /** MsgInstantExpiryFuturesMarketLaunchResponse defines the Msg/InstantExpiryFuturesMarketLaunch response type. */
 
-export interface MsgInstantExpiryFuturesMarketLaunchResponseSDKType {}
+export interface MsgInstantExpiryFuturesMarketLaunchResponseSDKType { }
 /** MsgCreateSpotMarketOrder defines a SDK message for creating a new spot market order. */
 
 export interface MsgCreateSpotMarketOrder {
@@ -577,10 +577,10 @@ export interface MsgCancelSpotOrderSDKType {
 }
 /** MsgCancelSpotOrderResponse defines the Msg/CancelSpotOrder response type. */
 
-export interface MsgCancelSpotOrderResponse {}
+export interface MsgCancelSpotOrderResponse { }
 /** MsgCancelSpotOrderResponse defines the Msg/CancelSpotOrder response type. */
 
-export interface MsgCancelSpotOrderResponseSDKType {}
+export interface MsgCancelSpotOrderResponseSDKType { }
 /** MsgBatchCancelSpotOrders defines the Msg/BatchCancelSpotOrders response type. */
 
 export interface MsgBatchCancelSpotOrders {
@@ -747,10 +747,10 @@ export interface MsgCancelDerivativeOrderSDKType {
 }
 /** MsgCancelDerivativeOrderResponse defines the Msg/CancelDerivativeOrderResponse response type. */
 
-export interface MsgCancelDerivativeOrderResponse {}
+export interface MsgCancelDerivativeOrderResponse { }
 /** MsgCancelDerivativeOrderResponse defines the Msg/CancelDerivativeOrderResponse response type. */
 
-export interface MsgCancelDerivativeOrderResponseSDKType {}
+export interface MsgCancelDerivativeOrderResponseSDKType { }
 /** MsgCancelBinaryOptionsOrder defines the Msg/CancelBinaryOptionsOrder response type. */
 
 export interface MsgCancelBinaryOptionsOrder {
@@ -775,10 +775,10 @@ export interface MsgCancelBinaryOptionsOrderSDKType {
 }
 /** MsgCancelBinaryOptionsOrderResponse defines the Msg/CancelBinaryOptionsOrderResponse response type. */
 
-export interface MsgCancelBinaryOptionsOrderResponse {}
+export interface MsgCancelBinaryOptionsOrderResponse { }
 /** MsgCancelBinaryOptionsOrderResponse defines the Msg/CancelBinaryOptionsOrderResponse response type. */
 
-export interface MsgCancelBinaryOptionsOrderResponseSDKType {}
+export interface MsgCancelBinaryOptionsOrderResponseSDKType { }
 export interface OrderData {
   marketId: string;
   subaccountId: string;
@@ -835,10 +835,10 @@ export interface MsgSubaccountTransferSDKType {
 }
 /** MsgSubaccountTransferResponse defines the Msg/SubaccountTransfer response type. */
 
-export interface MsgSubaccountTransferResponse {}
+export interface MsgSubaccountTransferResponse { }
 /** MsgSubaccountTransferResponse defines the Msg/SubaccountTransfer response type. */
 
-export interface MsgSubaccountTransferResponseSDKType {}
+export interface MsgSubaccountTransferResponseSDKType { }
 /** A Cosmos-SDK MsgExternalTransfer */
 
 export interface MsgExternalTransfer {
@@ -857,10 +857,10 @@ export interface MsgExternalTransferSDKType {
 }
 /** MsgExternalTransferResponse defines the Msg/ExternalTransfer response type. */
 
-export interface MsgExternalTransferResponse {}
+export interface MsgExternalTransferResponse { }
 /** MsgExternalTransferResponse defines the Msg/ExternalTransfer response type. */
 
-export interface MsgExternalTransferResponseSDKType {}
+export interface MsgExternalTransferResponseSDKType { }
 /** A Cosmos-SDK MsgLiquidatePosition */
 
 export interface MsgLiquidatePosition {
@@ -883,10 +883,10 @@ export interface MsgLiquidatePositionSDKType {
 }
 /** MsgLiquidatePositionResponse defines the Msg/LiquidatePosition response type. */
 
-export interface MsgLiquidatePositionResponse {}
+export interface MsgLiquidatePositionResponse { }
 /** MsgLiquidatePositionResponse defines the Msg/LiquidatePosition response type. */
 
-export interface MsgLiquidatePositionResponseSDKType {}
+export interface MsgLiquidatePositionResponseSDKType { }
 /** A Cosmos-SDK MsgIncreasePositionMargin */
 
 export interface MsgIncreasePositionMargin {
@@ -911,10 +911,10 @@ export interface MsgIncreasePositionMarginSDKType {
 }
 /** MsgIncreasePositionMarginResponse defines the Msg/IncreasePositionMargin response type. */
 
-export interface MsgIncreasePositionMarginResponse {}
+export interface MsgIncreasePositionMarginResponse { }
 /** MsgIncreasePositionMarginResponse defines the Msg/IncreasePositionMargin response type. */
 
-export interface MsgIncreasePositionMarginResponseSDKType {}
+export interface MsgIncreasePositionMarginResponseSDKType { }
 /** MsgExec defines the Msg/Exec message type */
 
 export interface MsgExec {
@@ -957,10 +957,10 @@ export interface MsgExecSDKType {
 }
 /** MsgExecResponse defines the Msg/Exec response type. */
 
-export interface MsgExecResponse {}
+export interface MsgExecResponse { }
 /** MsgExecResponse defines the Msg/Exec response type. */
 
-export interface MsgExecResponseSDKType {}
+export interface MsgExecResponseSDKType { }
 export interface SpotMarketParamUpdateProposal {
   title: string;
   description: string;
@@ -1653,10 +1653,10 @@ export interface MsgRewardsOptOutSDKType {
 }
 /** MsgRewardsOptOutResponse defines the Msg/RewardsOptOut response type. */
 
-export interface MsgRewardsOptOutResponse {}
+export interface MsgRewardsOptOutResponse { }
 /** MsgRewardsOptOutResponse defines the Msg/RewardsOptOut response type. */
 
-export interface MsgRewardsOptOutResponseSDKType {}
+export interface MsgRewardsOptOutResponseSDKType { }
 /** MsgAdminUpdateBinaryOptionsMarket is used by the market Admin to operate the market */
 
 export interface MsgAdminUpdateBinaryOptionsMarket {
@@ -1695,10 +1695,10 @@ export interface MsgAdminUpdateBinaryOptionsMarketSDKType {
 }
 /** MsgAdminUpdateBinaryOptionsMarketResponse is the response for AdminUpdateBinaryOptionsMarket rpc method */
 
-export interface MsgAdminUpdateBinaryOptionsMarketResponse {}
+export interface MsgAdminUpdateBinaryOptionsMarketResponse { }
 /** MsgAdminUpdateBinaryOptionsMarketResponse is the response for AdminUpdateBinaryOptionsMarket rpc method */
 
-export interface MsgAdminUpdateBinaryOptionsMarketResponseSDKType {}
+export interface MsgAdminUpdateBinaryOptionsMarketResponseSDKType { }
 
 function createBaseMsgDeposit(): MsgDeposit {
   return {

@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** spot authz messages */
 export interface CreateSpotLimitOrderAuthz {
     subaccountId: string;

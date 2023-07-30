@@ -4,17 +4,17 @@ import { MsgValsetConfirm, MsgValsetConfirmSDKType, MsgConfirmBatch, MsgConfirmB
 import { BatchFees, BatchFeesSDKType } from "./pool";
 import { OutgoingTxBatch, OutgoingTxBatchSDKType, OutgoingTransferTx, OutgoingTransferTxSDKType } from "./batch";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
-export interface QueryParamsRequest {}
-export interface QueryParamsRequestSDKType {}
+import { DeepPartial, Long } from "@cosmology/helpers";
+export interface QueryParamsRequest { }
+export interface QueryParamsRequestSDKType { }
 export interface QueryParamsResponse {
   params: Params;
 }
 export interface QueryParamsResponseSDKType {
   params: ParamsSDKType;
 }
-export interface QueryCurrentValsetRequest {}
-export interface QueryCurrentValsetRequestSDKType {}
+export interface QueryCurrentValsetRequest { }
+export interface QueryCurrentValsetRequestSDKType { }
 export interface QueryCurrentValsetResponse {
   valset: Valset;
 }
@@ -59,8 +59,8 @@ export interface QueryValsetConfirmsByNonceResponse {
 export interface QueryValsetConfirmsByNonceResponseSDKType {
   confirms: MsgValsetConfirmSDKType[];
 }
-export interface QueryLastValsetRequestsRequest {}
-export interface QueryLastValsetRequestsRequestSDKType {}
+export interface QueryLastValsetRequestsRequest { }
+export interface QueryLastValsetRequestsRequestSDKType { }
 export interface QueryLastValsetRequestsResponse {
   valsets: Valset[];
 }
@@ -79,8 +79,8 @@ export interface QueryLastPendingValsetRequestByAddrResponse {
 export interface QueryLastPendingValsetRequestByAddrResponseSDKType {
   valsets: ValsetSDKType[];
 }
-export interface QueryBatchFeeRequest {}
-export interface QueryBatchFeeRequestSDKType {}
+export interface QueryBatchFeeRequest { }
+export interface QueryBatchFeeRequestSDKType { }
 export interface QueryBatchFeeResponse {
   batchFees: BatchFees[];
 }
@@ -99,8 +99,8 @@ export interface QueryLastPendingBatchRequestByAddrResponse {
 export interface QueryLastPendingBatchRequestByAddrResponseSDKType {
   batch: OutgoingTxBatchSDKType;
 }
-export interface QueryOutgoingTxBatchesRequest {}
-export interface QueryOutgoingTxBatchesRequestSDKType {}
+export interface QueryOutgoingTxBatchesRequest { }
+export interface QueryOutgoingTxBatchesRequestSDKType { }
 export interface QueryOutgoingTxBatchesResponse {
   batches: OutgoingTxBatch[];
 }
@@ -233,10 +233,10 @@ export interface QueryPendingSendToEthResponseSDKType {
 }
 /** QueryModuleStateRequest is the request type for the Query/PeggyModuleState RPC method. */
 
-export interface QueryModuleStateRequest {}
+export interface QueryModuleStateRequest { }
 /** QueryModuleStateRequest is the request type for the Query/PeggyModuleState RPC method. */
 
-export interface QueryModuleStateRequestSDKType {}
+export interface QueryModuleStateRequestSDKType { }
 /** QueryModuleStateResponse is the response type for the Query/PeggyModuleState RPC method. */
 
 export interface QueryModuleStateResponse {

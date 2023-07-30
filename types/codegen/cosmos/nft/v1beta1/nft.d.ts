@@ -1,6 +1,6 @@
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** Class defines the class of the nft type. */
 export interface Class {
     /** id defines the unique identifier of the NFT classification, similar to the contract address of ERC721 */

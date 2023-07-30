@@ -1,12 +1,12 @@
 import { Params, ParamsSDKType } from "./mint";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequestSDKType {}
+export interface QueryParamsRequestSDKType { }
 /** QueryParamsResponse is the response type for the Query/Params RPC method. */
 
 export interface QueryParamsResponse {
@@ -21,10 +21,10 @@ export interface QueryParamsResponseSDKType {
 }
 /** QueryInflationRequest is the request type for the Query/Inflation RPC method. */
 
-export interface QueryInflationRequest {}
+export interface QueryInflationRequest { }
 /** QueryInflationRequest is the request type for the Query/Inflation RPC method. */
 
-export interface QueryInflationRequestSDKType {}
+export interface QueryInflationRequestSDKType { }
 /**
  * QueryInflationResponse is the response type for the Query/Inflation RPC
  * method.
@@ -48,13 +48,13 @@ export interface QueryInflationResponseSDKType {
  * Query/AnnualProvisions RPC method.
  */
 
-export interface QueryAnnualProvisionsRequest {}
+export interface QueryAnnualProvisionsRequest { }
 /**
  * QueryAnnualProvisionsRequest is the request type for the
  * Query/AnnualProvisions RPC method.
  */
 
-export interface QueryAnnualProvisionsRequestSDKType {}
+export interface QueryAnnualProvisionsRequestSDKType { }
 /**
  * QueryAnnualProvisionsResponse is the response type for the
  * Query/AnnualProvisions RPC method.

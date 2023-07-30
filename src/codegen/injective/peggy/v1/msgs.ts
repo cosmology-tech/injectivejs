@@ -2,7 +2,7 @@ import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import { BridgeValidator, BridgeValidatorSDKType } from "./types";
 import { Any, AnySDKType } from "../../../google/protobuf/any";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /**
  * MsgSetOrchestratorAddresses
  * this message allows validators to delegate their voting responsibilities
@@ -45,8 +45,8 @@ export interface MsgSetOrchestratorAddressesSDKType {
   orchestrator: string;
   eth_address: string;
 }
-export interface MsgSetOrchestratorAddressesResponse {}
-export interface MsgSetOrchestratorAddressesResponseSDKType {}
+export interface MsgSetOrchestratorAddressesResponse { }
+export interface MsgSetOrchestratorAddressesResponseSDKType { }
 /**
  * MsgValsetConfirm
  * this is the message sent by the validators when they wish to submit their
@@ -95,8 +95,8 @@ export interface MsgValsetConfirmSDKType {
   eth_address: string;
   signature: string;
 }
-export interface MsgValsetConfirmResponse {}
-export interface MsgValsetConfirmResponseSDKType {}
+export interface MsgValsetConfirmResponse { }
+export interface MsgValsetConfirmResponseSDKType { }
 /**
  * MsgSendToEth
  * This is the message that a user calls when they want to bridge an asset
@@ -139,8 +139,8 @@ export interface MsgSendToEthSDKType {
   amount: CoinSDKType;
   bridge_fee: CoinSDKType;
 }
-export interface MsgSendToEthResponse {}
-export interface MsgSendToEthResponseSDKType {}
+export interface MsgSendToEthResponse { }
+export interface MsgSendToEthResponseSDKType { }
 /**
  * MsgRequestBatch
  * this is a message anyone can send that requests a batch of transactions to
@@ -173,8 +173,8 @@ export interface MsgRequestBatchSDKType {
   orchestrator: string;
   denom: string;
 }
-export interface MsgRequestBatchResponse {}
-export interface MsgRequestBatchResponseSDKType {}
+export interface MsgRequestBatchResponse { }
+export interface MsgRequestBatchResponseSDKType { }
 /**
  * MsgConfirmBatch
  * When validators observe a MsgRequestBatch they form a batch by ordering
@@ -211,8 +211,8 @@ export interface MsgConfirmBatchSDKType {
   orchestrator: string;
   signature: string;
 }
-export interface MsgConfirmBatchResponse {}
-export interface MsgConfirmBatchResponseSDKType {}
+export interface MsgConfirmBatchResponse { }
+export interface MsgConfirmBatchResponseSDKType { }
 /**
  * EthereumBridgeDepositClaim
  * When more than 66% of the active validator set has
@@ -249,8 +249,8 @@ export interface MsgDepositClaimSDKType {
   orchestrator: string;
   data: string;
 }
-export interface MsgDepositClaimResponse {}
-export interface MsgDepositClaimResponseSDKType {}
+export interface MsgDepositClaimResponse { }
+export interface MsgDepositClaimResponseSDKType { }
 /**
  * WithdrawClaim claims that a batch of withdrawal
  * operations on the bridge contract was executed.
@@ -275,8 +275,8 @@ export interface MsgWithdrawClaimSDKType {
   token_contract: string;
   orchestrator: string;
 }
-export interface MsgWithdrawClaimResponse {}
-export interface MsgWithdrawClaimResponseSDKType {}
+export interface MsgWithdrawClaimResponse { }
+export interface MsgWithdrawClaimResponseSDKType { }
 /**
  * ERC20DeployedClaim allows the Cosmos module
  * to learn about an ERC20 that someone deployed
@@ -309,8 +309,8 @@ export interface MsgERC20DeployedClaimSDKType {
   decimals: Long;
   orchestrator: string;
 }
-export interface MsgERC20DeployedClaimResponse {}
-export interface MsgERC20DeployedClaimResponseSDKType {}
+export interface MsgERC20DeployedClaimResponse { }
+export interface MsgERC20DeployedClaimResponseSDKType { }
 /**
  * This call allows the sender (and only the sender)
  * to cancel a given MsgSendToEth and recieve a refund
@@ -331,8 +331,8 @@ export interface MsgCancelSendToEthSDKType {
   transaction_id: Long;
   sender: string;
 }
-export interface MsgCancelSendToEthResponse {}
-export interface MsgCancelSendToEthResponseSDKType {}
+export interface MsgCancelSendToEthResponse { }
+export interface MsgCancelSendToEthResponseSDKType { }
 /**
  * This call allows anyone to submit evidence that a
  * validator has signed a valset, batch, or logic call that never
@@ -355,8 +355,8 @@ export interface MsgSubmitBadSignatureEvidenceSDKType {
   signature: string;
   sender: string;
 }
-export interface MsgSubmitBadSignatureEvidenceResponse {}
-export interface MsgSubmitBadSignatureEvidenceResponseSDKType {}
+export interface MsgSubmitBadSignatureEvidenceResponse { }
+export interface MsgSubmitBadSignatureEvidenceResponseSDKType { }
 /**
  * This informs the Cosmos module that a validator
  * set has been updated.
@@ -385,8 +385,8 @@ export interface MsgValsetUpdatedClaimSDKType {
   reward_token: string;
   orchestrator: string;
 }
-export interface MsgValsetUpdatedClaimResponse {}
-export interface MsgValsetUpdatedClaimResponseSDKType {}
+export interface MsgValsetUpdatedClaimResponse { }
+export interface MsgValsetUpdatedClaimResponseSDKType { }
 
 function createBaseMsgSetOrchestratorAddresses(): MsgSetOrchestratorAddresses {
   return {

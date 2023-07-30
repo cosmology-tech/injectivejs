@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 export interface Params {
     /** Set the status to active to indicate that the contract is to be executed in begin blocker. */
     isExecutionEnabled: boolean;

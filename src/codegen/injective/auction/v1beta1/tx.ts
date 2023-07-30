@@ -1,6 +1,6 @@
 import { Coin, CoinSDKType } from "../../../cosmos/base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { Long, DeepPartial } from "@osmonauts/helpers";
+import { Long, DeepPartial } from "@cosmology/helpers";
 /** Bid defines a SDK message for placing a bid for an auction */
 
 export interface MsgBid {
@@ -23,8 +23,8 @@ export interface MsgBidSDKType {
 
   round: Long;
 }
-export interface MsgBidResponse {}
-export interface MsgBidResponseSDKType {}
+export interface MsgBidResponse { }
+export interface MsgBidResponseSDKType { }
 
 function createBaseMsgBid(): MsgBid {
   return {

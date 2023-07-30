@@ -2,13 +2,13 @@ import { PageRequest, PageRequestSDKType, PageResponse, PageResponseSDKType } fr
 import { Params, ParamsSDKType, ValidatorOutstandingRewards, ValidatorOutstandingRewardsSDKType, ValidatorAccumulatedCommission, ValidatorAccumulatedCommissionSDKType, ValidatorSlashEvent, ValidatorSlashEventSDKType, DelegationDelegatorReward, DelegationDelegatorRewardSDKType } from "./distribution";
 import { DecCoin, DecCoinSDKType } from "../../base/v1beta1/coin";
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial, Long } from "@osmonauts/helpers";
+import { DeepPartial, Long } from "@cosmology/helpers";
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
 
-export interface QueryParamsRequestSDKType {}
+export interface QueryParamsRequestSDKType { }
 /** QueryParamsResponse is the response type for the Query/Params RPC method. */
 
 export interface QueryParamsResponse {
@@ -312,13 +312,13 @@ export interface QueryDelegatorWithdrawAddressResponseSDKType {
  * method.
  */
 
-export interface QueryCommunityPoolRequest {}
+export interface QueryCommunityPoolRequest { }
 /**
  * QueryCommunityPoolRequest is the request type for the Query/CommunityPool RPC
  * method.
  */
 
-export interface QueryCommunityPoolRequestSDKType {}
+export interface QueryCommunityPoolRequestSDKType { }
 /**
  * QueryCommunityPoolResponse is the response type for the Query/CommunityPool
  * RPC method.

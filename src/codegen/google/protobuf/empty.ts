@@ -1,5 +1,5 @@
 import * as _m0 from "protobufjs/minimal";
-import { DeepPartial } from "@osmonauts/helpers";
+import { DeepPartial } from "@cosmology/helpers";
 /**
  * A generic empty message that you can re-use to avoid defining duplicated
  * empty messages in your APIs. A typical example is to use it as the request
@@ -12,7 +12,7 @@ import { DeepPartial } from "@osmonauts/helpers";
  * The JSON representation for `Empty` is empty JSON object `{}`.
  */
 
-export interface Empty {}
+export interface Empty { }
 /**
  * A generic empty message that you can re-use to avoid defining duplicated
  * empty messages in your APIs. A typical example is to use it as the request
@@ -25,7 +25,7 @@ export interface Empty {}
  * The JSON representation for `Empty` is empty JSON object `{}`.
  */
 
-export interface EmptySDKType {}
+export interface EmptySDKType { }
 
 function createBaseEmpty(): Empty {
   return {};
